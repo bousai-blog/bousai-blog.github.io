@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faeeda"/>
+      <stop offset="100%" stop-color="#f7f6f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- 床のライン -->
+  <rect y="540" width="1200" height="135" fill="#ead8b0" opacity="0.4"/>
+
+  <!-- ===== 左：アルファ米のパッケージ ===== -->
+  <g transform="translate(280 320)">
+    <!-- 影 -->
+    <ellipse cx="0" cy="210" rx="120" ry="11" fill="#000" opacity="0.1"/>
+    <!-- パッケージ本体 -->
+    <rect x="-100" y="-160" width="200" height="350" rx="8" fill="#f5e6c8" stroke="#8b6f3e" stroke-width="2.5"/>
+    <!-- 上部の白い帯 -->
+    <rect x="-100" y="-160" width="200" height="60" fill="#fff" stroke="#8b6f3e" stroke-width="2"/>
+    <text x="0" y="-122" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#5a3a23">アルファ米</text>
+    <!-- 中央のお茶碗イラスト -->
+    <g transform="translate(0 -10)">
+      <!-- お茶碗 -->
+      <path d="M-55 -10 Q-55 40 -45 50 L45 50 Q55 40 55 -10 Z" fill="#d4a574" stroke="#8b5e3c" stroke-width="2"/>
+      <ellipse cx="0" cy="-10" rx="55" ry="12" fill="#fff" stroke="#8b5e3c" stroke-width="2"/>
+      <!-- ご飯の粒（白） -->
+      <ellipse cx="-20" cy="-15" rx="5" ry="3" fill="#fff8e8"/>
+      <ellipse cx="0" cy="-18" rx="5" ry="3" fill="#fff8e8"/>
+      <ellipse cx="20" cy="-15" rx="5" ry="3" fill="#fff8e8"/>
+      <ellipse cx="-10" cy="-12" rx="4" ry="2.5" fill="#fff"/>
+      <ellipse cx="10" cy="-12" rx="4" ry="2.5" fill="#fff"/>
+      <!-- 湯気 -->
+      <path d="M-15 -30 Q-12 -45 -8 -50" stroke="#bba78c" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+      <path d="M0 -30 Q3 -45 0 -55" stroke="#bba78c" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+      <path d="M15 -30 Q18 -45 12 -50" stroke="#bba78c" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+    </g>
+    <!-- 下部 -->
+    <rect x="-90" y="100" width="180" height="80" fill="#c89368" rx="4"/>
+    <text x="0" y="130" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#fff">5年保存</text>
+    <text x="0" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#fff">非常食</text>
+  </g>
+
+  <!-- ===== 中央：水の量の比較 ===== -->
+  <g transform="translate(660 340)">
+    <text x="0" y="-130" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="20" font-weight="700" fill="#5a3a23">必要な水の量</text>
+
+    <!-- パスタの水（多い） -->
+    <g transform="translate(-65 0)">
+      <rect x="-30" y="-90" width="60" height="160" rx="4" fill="#b5d4f4" stroke="#378add" stroke-width="2"/>
+      <rect x="-30" y="-90" width="60" height="20" fill="#fff" stroke="#378add" stroke-width="2"/>
+      <text x="0" y="-100" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5a3a23">パスタ</text>
+      <text x="0" y="35" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#185fa5">1L</text>
+      <text x="0" y="55" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#185fa5">以上</text>
+    </g>
+
+    <!-- アルファ米の水（少ない） -->
+    <g transform="translate(65 50)">
+      <rect x="-30" y="-30" width="60" height="100" rx="4" fill="#b5d4f4" stroke="#378add" stroke-width="2"/>
+      <rect x="-30" y="-30" width="60" height="20" fill="#fff" stroke="#378add" stroke-width="2"/>
+      <text x="0" y="-50" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5a3a23">アルファ米</text>
+      <text x="0" y="32" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#185fa5">160</text>
+      <text x="0" y="55" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#185fa5">ml</text>
+    </g>
+
+    <!-- 比較ライン -->
+    <line x1="-20" y1="80" x2="20" y2="80" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="0" y="105" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="16" font-weight="700" fill="#c0392b">約1/6</text>
+  </g>
+
+  <!-- ===== 右：感想バルーン ===== -->
+  <g transform="translate(960 340)">
+    <!-- 吹き出し -->
+    <path d="M-90 -80 Q-100 -80 -100 -68 L-100 50 Q-100 62 -90 62 L-30 62 L-25 80 L-15 62 L90 62 Q100 62 100 50 L100 -68 Q100 -80 90 -80 Z"
+          fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+    <text x="0" y="-40" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#c0392b">想像より</text>
+    <text x="0" y="-10" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#c0392b">ずっと</text>
+    <text x="0" y="20" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="32" font-weight="700" fill="#c0392b">美味しい!</text>
+  </g>
+
+  <!-- メインタイトル -->
+  <g text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif">
+    <text x="600" y="90" font-size="42" font-weight="700" fill="#5a3a23" letter-spacing="1">5年保存のアルファ米って、</text>
+    <text x="600" y="145" font-size="42" font-weight="700" fill="#5a3a23" letter-spacing="1">本当に美味しい?</text>
+  </g>
+
+  <!-- サブタイトル -->
+  <text x="600" y="625" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="18" fill="#7a5a3e">食べてみて分かったこと</text>
+</svg>
