@@ -11,7 +11,8 @@
     "title": "結局500mlが使いやすかった ── わが家の水備蓄、2Lから移行中の話",
     "date": "2026-01-29",
     "summary": "長期保存水と普通のペットボトル水、両方を備蓄しているわが家の試行錯誤。コスパなら2Lだけど、回しやすさでは500mlがダンゼン使いやすい、という気づきまでの話。",
-    "cover": "images/water-stockpile-cover.svg"
+    "cover": "images/water-stockpile-cover.svg",
+    "recommend": false
   },
   {
     "slug": "2026-01-15-emergency-bag",
@@ -25,6 +26,7 @@
     "title": "防災を本気で考え始めた、私のきっかけ",
     "date": "2026-01-01",
     "summary": "東日本大震災で防災を意識し始め、家族ができて備えがさらに深まりました。ブログを始めるに至った背景を、最初にお話しさせてください。",
-    "cover": "images/why-i-started-cover.svg"
+    "cover": "images/why-i-started-cover.svg",
+    "recommend": false
   }
 ]

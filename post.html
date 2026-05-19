@@ -25,8 +25,8 @@
     <p class="loading">読み込み中...</p>
   </article>
 
-  <!-- 記事下のおすすめ商品枠（全記事共通） -->
-  <aside class="recommend-box">
+  <!-- 記事下のおすすめ商品枠（記事ごとに表示/非表示を切り替え可能） -->
+  <aside id="recommend-box" class="recommend-box" hidden>
     <h3 class="recommend-title">🛒 編集部おすすめの防災グッズ</h3>
     <p class="recommend-note">この記事を読んだ方におすすめの商品です。</p>
     <div class="recommend-items">
@@ -85,6 +85,12 @@
       ${coverHtml}
       <div class="article-body">${marked.parse(md)}</div>
     `;
+
+    // おすすめ枠の表示制御
+    // posts.json で "recommend": false が指定されていなければ表示する（デフォルトは表示）
+    if (meta.recommend !== false) {
+      document.getElementById('recommend-box').hidden = false;
+    }
   } catch (e) {
     article.innerHTML = `<p class="error">読み込みに失敗しました: ${e.message}</p>`;
   }
