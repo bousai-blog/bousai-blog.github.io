@@ -52,7 +52,7 @@
     <rect x="-15" y="115" width="30" height="35" fill="#a08056" stroke="#5a3a23" stroke-width="1"/>
     <rect x="20" y="115" width="30" height="35" fill="#a08056" stroke="#5a3a23" stroke-width="1"/>
     <text x="0" y="290" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="18" font-weight="600" fill="#5a3a23">家の備蓄</text>
-    <text x="0" y="313" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7a5a3e">1〜2週間しのげる量</text>
+    <text x="0" y="313" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7a5a3e">2〜3ヶ月しのげる量</text>
   </g>
 
   <!-- 矢印 -->
