@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>記事 - 防災ブログ</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+
+<!-- ▼▼▼ Googleアドセンス用：審査に通ったら、下の行のコメントを外してご自身の発行コードに差し替えてください ▼▼▼
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+▲▲▲ Googleアドセンス用 ▲▲▲ -->
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="./">🛟 防災ブログ</a></h1>
+    <p class="site-tagline">家庭・地域で役立つ防災情報をやさしく</p>
+  </div>
+</header>
+
+<main class="container">
+  <p><a class="back-link" href="./">← 記事一覧に戻る</a></p>
+  <article id="article" class="article">
+    <p class="loading">読み込み中...</p>
+  </article>
+
+  <!-- 記事下のおすすめ商品枠（全記事共通） -->
+  <aside class="recommend-box">
+    <h3 class="recommend-title">🛒 編集部おすすめの防災グッズ</h3>
+    <p class="recommend-note">この記事を読んだ方におすすめの商品です。</p>
+    <div class="recommend-items">
+      <!-- ▼▼▼ ここにASPから発行された広告タグを貼ってください（複数可） ▼▼▼ -->
+      <!-- 例：Amazonアソシエイトのテキストリンク -->
+      <!-- <a href="https://amzn.to/xxxxx" target="_blank" rel="nofollow sponsored">防災セット 1人用（楽天で確認）</a> -->
+
+      <!-- 例：楽天やA8.netの広告タグはそのままここに貼り付け -->
+
+      <p class="recommend-placeholder">※ここに広告タグを貼り付けると商品が表示されます。</p>
+    </div>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>© 防災ブログ</small>
+    <br><small class="disclosure">※当サイトはアフィリエイトプログラムを利用しており、リンクから商品をご購入いただくと運営者に報酬が入る場合があります。</small>
+  </div>
+</footer>
+
+<script>
+(async () => {
+  const article = document.getElementById('article');
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('slug');
+  if (!slug) {
+    article.innerHTML = '<p class="error">記事が指定されていません。</p>';
+    return;
+  }
+  const safeSlug = slug.replace(/[^a-zA-Z0-9\-_]/g, '');
+  if (!safeSlug) {
+    article.innerHTML = '<p class="error">記事IDが不正です。</p>';
+    return;
+  }
+  try {
+    const indexRes = await fetch('posts/posts.json?_=' + Date.now());
+    const posts = await indexRes.json();
+    const meta = posts.find(p => p.slug === safeSlug);
+    if (!meta) {
+      article.innerHTML = '<p class="error">記事が見つかりませんでした。</p>';
+      return;
+    }
+    const mdRes = await fetch(`posts/${safeSlug}.md?_=` + Date.now());
+    if (!mdRes.ok) throw new Error('本文を取得できませんでした');
+    const md = await mdRes.text();
+    document.title = `${meta.title} - 防災ブログ`;
+
+    const coverHtml = meta.cover
+      ? `<figure class="article-cover"><img src="${meta.cover}" alt=""></figure>`
+      : '';
+
+    article.innerHTML = `
+      <header class="article-header">
+        <time class="post-date">${meta.date}</time>
+        <h1 class="article-title">${meta.title}</h1>
+      </header>
+      ${coverHtml}
+      <div class="article-body">${marked.parse(md)}</div>
+    `;
+  } catch (e) {
+    article.innerHTML = `<p class="error">読み込みに失敗しました: ${e.message}</p>`;
+  }
+})();
+</script>
+</body>
+</html>

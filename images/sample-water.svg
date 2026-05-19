@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <rect width="600" height="300" fill="#f7f6f1"/>
+  <!-- 3 water bottles -->
+  <g transform="translate(150 60)">
+    <rect x="-25" y="-10" width="50" height="20" rx="4" fill="#85b7eb"/>
+    <rect x="-30" y="10" width="60" height="160" rx="10" fill="#b5d4f4" stroke="#378add" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0c447c" font-weight="600">水</text>
+    <text x="0" y="125" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#185fa5">2L</text>
+  </g>
+  <g transform="translate(300 60)">
+    <rect x="-25" y="-10" width="50" height="20" rx="4" fill="#85b7eb"/>
+    <rect x="-30" y="10" width="60" height="160" rx="10" fill="#b5d4f4" stroke="#378add" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0c447c" font-weight="600">水</text>
+    <text x="0" y="125" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#185fa5">2L</text>
+  </g>
+  <g transform="translate(450 60)">
+    <rect x="-25" y="-10" width="50" height="20" rx="4" fill="#85b7eb"/>
+    <rect x="-30" y="10" width="60" height="160" rx="10" fill="#b5d4f4" stroke="#378add" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0c447c" font-weight="600">水</text>
+    <text x="0" y="125" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#185fa5">2L</text>
+  </g>
+  <text x="300" y="270" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5b6470">ひとり1日3L × 3日分が目安</text>
+</svg>

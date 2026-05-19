@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>防災ブログ</title>
+<meta name="description" content="家庭・地域で役立つ防災情報をやさしくお届けするブログ">
+<link rel="stylesheet" href="assets/style.css">
+
+<!-- ▼▼▼ Googleアドセンス用：審査に通ったら、下の行のコメントを外してご自身の発行コードに差し替えてください ▼▼▼
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+▲▲▲ Googleアドセンス用 ▲▲▲ -->
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title"><a href="./">🛟 防災ブログ</a></h1>
+    <p class="site-tagline">家庭・地域で役立つ防災情報をやさしく</p>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2 class="section-title">最新記事</h2>
+    <ul id="post-list" class="post-list">
+      <li class="loading">読み込み中...</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <small>© 防災ブログ</small>
+    <br><small class="disclosure">※当サイトはアフィリエイトプログラムを利用しており、リンクから商品をご購入いただくと運営者に報酬が入る場合があります。</small>
+  </div>
+</footer>
+
+<script>
+(async () => {
+  const list = document.getElementById('post-list');
+  try {
+    const res = await fetch('posts/posts.json?_=' + Date.now());
+    if (!res.ok) throw new Error('posts.json を取得できませんでした');
+    const posts = await res.json();
+    posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+    list.innerHTML = '';
+    if (posts.length === 0) {
+      list.innerHTML = '<li class="empty">まだ記事がありません。</li>';
+      return;
+    }
+    for (const p of posts) {
+      const li = document.createElement('li');
+      li.className = 'post-item';
+      const cover = p.cover
+        ? `<div class="post-cover"><img src="${p.cover}" alt="" loading="lazy"></div>`
+        : '';
+      li.innerHTML = `
+        <a class="post-link" href="post.html?slug=${encodeURIComponent(p.slug)}">
+          ${cover}
+          <div class="post-meta">
+            <time class="post-date">${p.date}</time>
+            <span class="post-title">${p.title}</span>
+            ${p.summary ? `<span class="post-summary">${p.summary}</span>` : ''}
+          </div>
+        </a>
+      `;
+      list.appendChild(li);
+    }
+  } catch (e) {
+    list.innerHTML = `<li class="error">読み込みに失敗しました: ${e.message}</li>`;
+  }
+})();
+</script>
+</body>
+</html>
