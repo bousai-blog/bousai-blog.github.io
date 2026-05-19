@@ -9,35 +9,19 @@
       <stop offset="100%" stop-color="#c9b599"/>
     </linearGradient>
   </defs>
-
-  <!-- 背景 -->
   <rect width="1200" height="675" fill="url(#sky)"/>
-
-  <!-- 遠景の山並み -->
   <path d="M0,420 L120,360 L240,400 L360,340 L500,390 L640,330 L800,380 L940,350 L1080,395 L1200,360 L1200,500 L0,500 Z" fill="#d4b896" opacity="0.5"/>
   <path d="M0,460 L150,410 L300,440 L460,390 L620,430 L780,400 L940,440 L1100,410 L1200,430 L1200,520 L0,520 Z" fill="#b89776" opacity="0.45"/>
-
-  <!-- 太陽（夕日のイメージ） -->
   <circle cx="900" cy="220" r="70" fill="#f4a878" opacity="0.7"/>
   <circle cx="900" cy="220" r="50" fill="#e88a5a" opacity="0.5"/>
-
-  <!-- 地面 -->
   <rect y="500" width="1200" height="175" fill="url(#ground)"/>
-
-  <!-- 家のシルエット（家族・暮らしの象徴） -->
   <g transform="translate(160 400)">
-    <!-- 屋根 -->
     <polygon points="0,40 70,-10 140,40" fill="#8b5e3c"/>
-    <!-- 家本体 -->
     <rect x="15" y="40" width="110" height="80" fill="#c89368"/>
-    <!-- ドア -->
     <rect x="55" y="80" width="30" height="40" fill="#5a3a23"/>
-    <!-- 窓 -->
     <rect x="25" y="55" width="20" height="18" fill="#f9e9b8"/>
     <rect x="95" y="55" width="20" height="18" fill="#f9e9b8"/>
   </g>
-
-  <!-- 大きな木（生活、年月の象徴） -->
   <g transform="translate(1000 360)">
     <rect x="-8" y="60" width="16" height="80" fill="#6b4a2b"/>
     <circle cx="0" cy="40" r="55" fill="#8fa869"/>
@@ -45,10 +29,8 @@
     <circle cx="25" cy="55" r="40" fill="#a3bd7e"/>
     <circle cx="0" cy="20" r="40" fill="#9eb574"/>
   </g>
-
-  <!-- タイトル -->
   <g text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif">
-    <text x="600" y="180" font-size="56" font-weight="700" fill="#5a3a23" letter-spacing="2">防災を、もっと身近に</text>
-    <text x="600" y="240" font-size="24" fill="#7a5a3e">家庭・地域で役立つ防災情報をやさしく</text>
+    <text x="600" y="180" font-size="62" font-weight="700" fill="#5a3a23" letter-spacing="2">そなえと、ちいさな工夫</text>
+    <text x="600" y="240" font-size="22" fill="#7a5a3e">防災のそなえから、日々のちいさな工夫まで</text>
   </g>
 </svg>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>記事 - 防災ブログ</title>
+<title>記事 - そなえと、ちいさな工夫</title>
 <link rel="stylesheet" href="assets/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
 
@@ -14,8 +14,8 @@
 <body>
 <header class="site-header">
   <div class="container">
-    <h1 class="site-title"><a href="./">🛟 防災ブログ</a></h1>
-    <p class="site-tagline">家庭・地域で役立つ防災情報をやさしく</p>
+    <h1 class="site-title"><a href="./">🌿 そなえと、ちいさな工夫</a></h1>
+    <p class="site-tagline">防災のそなえから、日々のちいさな工夫まで</p>
   </div>
 </header>
 
@@ -43,7 +43,7 @@
 
 <footer class="site-footer">
   <div class="container">
-    <small>© 防災ブログ</small>
+    <small>© そなえと、ちいさな工夫</small>
     <br><small class="disclosure">※当サイトはアフィリエイトプログラムを利用しており、リンクから商品をご購入いただくと運営者に報酬が入る場合があります。</small>
   </div>
 </footer>
@@ -73,7 +73,7 @@
     const mdRes = await fetch(`posts/${safeSlug}.md?_=` + Date.now());
     if (!mdRes.ok) throw new Error('本文を取得できませんでした');
     const md = await mdRes.text();
-    document.title = `${meta.title} - 防災ブログ`;
+    document.title = `${meta.title} - そなえと、ちいさな工夫`;
 
     const coverHtml = meta.cover
       ? `<figure class="article-cover"><img src="${meta.cover}" alt=""></figure>`
