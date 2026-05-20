@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9ebd5"/>
+      <stop offset="100%" stop-color="#f7f6f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- 床のライン -->
+  <rect y="540" width="1200" height="135" fill="#ead5b0" opacity="0.4"/>
+
+  <!-- ===== 左：缶詰 ===== -->
+  <g transform="translate(280 350)">
+    <!-- 影 -->
+    <ellipse cx="0" cy="160" rx="95" ry="9" fill="#000" opacity="0.12"/>
+
+    <!-- 缶詰 1（後ろ）-->
+    <g transform="translate(-45 -10)">
+      <ellipse cx="0" cy="-65" rx="55" ry="13" fill="#a0a0a0"/>
+      <rect x="-55" y="-65" width="110" height="180" fill="#c8c8c8"/>
+      <ellipse cx="0" cy="115" rx="55" ry="13" fill="#888"/>
+      <!-- ラベル -->
+      <rect x="-50" y="-30" width="100" height="120" fill="#c0392b"/>
+      <text x="0" y="20" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="16" font-weight="700" fill="#fff">サバ缶</text>
+      <text x="0" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">水煮</text>
+    </g>
+
+    <!-- 缶詰 2（前）-->
+    <g transform="translate(45 30)">
+      <ellipse cx="0" cy="-65" rx="50" ry="11" fill="#a0a0a0"/>
+      <rect x="-50" y="-65" width="100" height="150" fill="#c8c8c8"/>
+      <ellipse cx="0" cy="85" rx="50" ry="11" fill="#888"/>
+      <!-- ラベル -->
+      <rect x="-45" y="-30" width="90" height="95" fill="#3498db"/>
+      <text x="0" y="10" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="15" font-weight="700" fill="#fff">ツナ</text>
+      <text x="0" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">缶詰</text>
+    </g>
+
+    <!-- ラベル -->
+    <text x="0" y="225" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#5a3a23">缶詰</text>
+    <text x="0" y="250" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7a5a3e">主力 / そのままOK</text>
+  </g>
+
+  <!-- ===== 中央:レトルト ===== -->
+  <g transform="translate(600 360)">
+    <!-- 影 -->
+    <ellipse cx="0" cy="150" rx="100" ry="10" fill="#000" opacity="0.12"/>
+
+    <!-- レトルトパウチ 1（後ろ） -->
+    <g transform="translate(-30 -10)">
+      <rect x="-55" y="-90" width="110" height="180" rx="8" fill="#e07a3b" stroke="#8a4a14" stroke-width="2"/>
+      <rect x="-55" y="-90" width="110" height="30" fill="#fff" stroke="#8a4a14" stroke-width="1.5"/>
+      <text x="0" y="0" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="16" font-weight="700" fill="#fff">カレー</text>
+      <text x="0" y="22" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#fff">中辛</text>
+      <text x="0" y="65" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff">retort</text>
+    </g>
+
+    <!-- レトルトパウチ 2（前） -->
+    <g transform="translate(40 20)">
+      <rect x="-45" y="-75" width="90" height="150" rx="6" fill="#c0392b" stroke="#7a1c0f" stroke-width="2"/>
+      <rect x="-45" y="-75" width="90" height="22" fill="#fff" stroke="#7a1c0f" stroke-width="1.5"/>
+      <text x="0" y="0" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="13" font-weight="700" fill="#fff">パスタ</text>
+      <text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff">ソース</text>
+    </g>
+
+    <!-- ラベル -->
+    <text x="0" y="220" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#5a3a23">レトルト</text>
+    <text x="0" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7a5a3e">主力 / 温めて満足度◎</text>
+  </g>
+
+  <!-- ===== 右:フリーズドライ ===== -->
+  <g transform="translate(920 380)">
+    <!-- 影 -->
+    <ellipse cx="0" cy="130" rx="85" ry="8" fill="#000" opacity="0.12"/>
+
+    <!-- フリーズドライの袋 -->
+    <g>
+      <rect x="-55" y="-70" width="110" height="180" rx="6" fill="#fce8b8" stroke="#bd8c3a" stroke-width="2"/>
+      <rect x="-55" y="-70" width="110" height="28" fill="#fff" stroke="#bd8c3a" stroke-width="1.5"/>
+      <text x="0" y="-25" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="14" font-weight="700" fill="#bd8c3a">FREEZE</text>
+      <text x="0" y="-10" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="14" font-weight="700" fill="#bd8c3a">DRY</text>
+      <!-- いちごのイラスト -->
+      <g transform="translate(0 40)">
+        <path d="M-18 0 Q-18 -20 0 -22 Q18 -20 18 0 Q18 25 0 30 Q-18 25 -18 0 Z" fill="#e74c3c"/>
+        <!-- 葉 -->
+        <path d="M-8 -22 L-5 -28 L0 -25 L5 -28 L8 -22 Z" fill="#27ae60"/>
+        <!-- 種 -->
+        <circle cx="-8" cy="-5" r="1.5" fill="#fff"/>
+        <circle cx="6" cy="-3" r="1.5" fill="#fff"/>
+        <circle cx="-3" cy="8" r="1.5" fill="#fff"/>
+        <circle cx="8" cy="10" r="1.5" fill="#fff"/>
+      </g>
+      <text x="0" y="95" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#bd8c3a">いちご</text>
+    </g>
+
+    <!-- ラベル -->
+    <text x="0" y="205" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="22" font-weight="700" fill="#5a3a23">フリーズドライ</text>
+    <text x="0" y="230" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7a5a3e">サブ / 果物の備えに</text>
+  </g>
+
+  <!-- メインタイトル -->
+  <g text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif">
+    <text x="600" y="100" font-size="42" font-weight="700" fill="#5a3a23" letter-spacing="1">普段から食べていれば、</text>
+    <text x="600" y="155" font-size="42" font-weight="700" fill="#5a3a23" letter-spacing="1">非常食じゃなくなる</text>
+  </g>
+
+  <!-- サブタイトル -->
+  <text x="600" y="625" text-anchor="middle" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="18" fill="#7a5a3e">缶詰・レトルト・フリーズドライの使い分け</text>
+</svg>
