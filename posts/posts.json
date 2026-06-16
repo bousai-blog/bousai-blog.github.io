@@ -1,11 +1,56 @@
 [
   {
+    "slug": "2026-06-04-radio-information",
+    "title": "災害時のラジオ・スマホ・情報源 ── 手回し充電ラジオは本当に必要か",
+    "date": "2026-06-04",
+    "summary": "スマホだけでは情報を取れなくなる場面があります。手回し充電ラジオの実力を半年使った正直な感想とともに、わが家の情報収集セットを公開します。",
+    "cover": "images/radio-information-cover.svg",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "防災ラジオ（手回し・ソーラー・USB充電対応）",
+        "description": "電池・手回し・ソーラー充電の3WAY対応。停電時でも情報を取り続けられる防災の必需品です。",
+        "url": "https://www.amazon.co.jp/s?k=防災ラジオ+手回し+ソーラー+USB充電&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
+    "slug": "2026-05-21-cassette-stove",
+    "title": "カセットコンロは「家の防災」の主役 ── 選び方と備蓄ボンベの量の目安",
+    "date": "2026-05-21",
+    "summary": "停電もガス停止も関係なく使えるカセットコンロ。ボンベの必要本数の計算式と、安全な保管方法、わが家の運用方法を正直にお話しします。",
+    "cover": "images/cassette-stove-cover.svg",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "カセットコンロ（屋内用・安全機能付き）",
+        "description": "停電・ガス停止時の調理に。圧力感知安全装置付きの屋内用カセットコンロ。",
+        "url": "https://www.amazon.co.jp/s?k=カセットコンロ+防災+屋内&tag=msalpha0123-22"
+      },
+      {
+        "title": "カセットガスボンベ（まとめ買い）",
+        "description": "7日分の目安は21本以上。まとめ買いでコストを抑えつつ、日常使いでローリングストックがおすすめです。",
+        "url": "https://www.amazon.co.jp/s?k=カセットガス+ボンベ+まとめ買い&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-05-07-hygiene-items",
     "title": "水が使えないとき、お風呂はどうする？ ── わが家の衛生グッズ事情",
     "date": "2026-05-07",
     "summary": "災害で水が止まったとき、お風呂はどうする？ わが家にあるドライシャンプーと歯磨きシート、まだ使ったことがない正直な実態と、調べて分かったことをまとめました。",
     "cover": "images/hygiene-items-cover.svg",
-    "recommend": false
+    "category": "衛生・医療",
+    "products": [
+      {
+        "title": "ドライシャンプー・歯磨きシート（防災衛生グッズ）",
+        "description": "水がなくても清潔を保てるドライシャンプーと歯磨きシートのセット。",
+        "url": "https://www.amazon.co.jp/s?k=ドライシャンプー+歯磨きシート+防災&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-04-23-toilet-stockpile",
@@ -13,7 +58,15 @@
     "date": "2026-04-23",
     "summary": "災害時のトイレは、思っていたよりずっと多くの数が必要でした。「男だから外でいい」と軽く考えていた自分の反省と、わが家の見直しプランを正直にお話しします。",
     "cover": "images/toilet-stockpile-cover.svg",
-    "recommend": false
+    "category": "衛生・医療",
+    "products": [
+      {
+        "title": "簡易トイレ・携帯トイレセット（防臭袋付き）",
+        "description": "断水時のトイレ対策に。1人7日分なら最低50回分が目安。防臭袋付きのものが使いやすいです。",
+        "url": "https://www.amazon.co.jp/s?k=簡易トイレ+防災+凝固剤+防臭袋&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-04-09-solar-panel-power",
@@ -21,7 +74,15 @@
     "date": "2026-04-09",
     "summary": "屋根の太陽光パネルは、停電時に「自立運転モード」へ切り替えると日中の電気が使えます。意外と知られていないこの機能と、わが家のシンプルな電気の備え4つをお話しします。",
     "cover": "images/solar-panel-power-cover.svg",
-    "recommend": false
+    "category": "電源・エネルギー",
+    "products": [
+      {
+        "title": "ポータブル電源（家庭用・停電対策）",
+        "description": "太陽光パネルがない家の停電対策に。スマホ・ラジオ・小型家電を動かせる家庭用ポータブル電源。",
+        "url": "https://www.amazon.co.jp/s?k=ポータブル電源+家庭用+停電対策&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-03-26-flashlight-lantern",
@@ -29,7 +90,15 @@
     "date": "2026-03-26",
     "summary": "災害時のライトは、専用品をたくさん揃えなくても、家にあるもので十分代用できます。わが家のライト4種類の使い分けと、懐中電灯を簡易ランタンにする小ワザをご紹介。",
     "cover": "images/flashlight-lantern-cover.svg",
-    "recommend": false
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "LEDランタン（充電式・調光機能付き）",
+        "description": "停電時の室内照明に。USB充電式で普段も使えるコンパクトなLEDランタン。",
+        "url": "https://www.amazon.co.jp/s?k=LEDランタン+充電式+防災&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-03-12-march-check",
@@ -37,21 +106,47 @@
     "date": "2026-03-12",
     "summary": "3月になると、テレビで震災の特集が増えてきます。10年以上続けている「そなえ点検」の中身と、家族と一緒に続けるためのちいさな工夫を、ありのままにお話しします。",
     "cover": "images/march-check-cover.svg",
-    "recommend": false
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "防災チェックリスト・防災手帳",
+        "description": "家族の連絡先・避難場所・備蓄状況をまとめておける防災手帳。年1回の点検に役立ちます。",
+        "url": "https://www.amazon.co.jp/s?k=防災手帳+チェックリスト&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-02-26-canned-retort-freezedry",
     "title": "普段から食べていれば、非常食じゃなくなる ── 缶詰・レトルト・フリーズドライの使い分け",
     "date": "2026-02-26",
     "summary": "非常食は特別なものを揃えなくていい。わが家の缶詰・レトルト・フリーズドライの備え方と、忙しい日にも重宝する日常使いの工夫を、正直にお話しします。",
-    "cover": "images/canned-retort-freezedry-cover.svg"
+    "cover": "images/canned-retort-freezedry-cover.svg",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "缶詰・レトルト食品（備蓄用まとめ買い）",
+        "description": "日常でも使えるローリングストックに最適な缶詰・レトルト食品のまとめ買いセット。",
+        "url": "https://www.amazon.co.jp/s?k=缶詰+レトルト+備蓄+まとめ買い&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-02-12-alpha-rice",
     "title": "5年保存のアルファ米って、本当に美味しい? ── 食べてみて分かったこと",
     "date": "2026-02-12",
-    "summary": "防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリット。少ない水でご飯になる、という第3回からの繋がりが深まる話です。",
-    "cover": "images/alpha-rice-cover.svg"
+    "summary": "防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリットをお伝えします。",
+    "cover": "images/alpha-rice-cover.svg",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "アルファ米（5年保存・各種フレーバー）",
+        "description": "お湯でも水でも食べられる5年保存のアルファ米。複数の味を試してみるのがおすすめ。",
+        "url": "https://www.amazon.co.jp/s?k=アルファ米+5年保存+防災&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-01-29-water-stockpile",
@@ -59,14 +154,31 @@
     "date": "2026-01-29",
     "summary": "長期保存水と普通のペットボトル水、両方を備蓄しているわが家の試行錯誤。コスパなら2Lだけど、回しやすさでは500mlがダンゼン使いやすい、という気づきまでの話。",
     "cover": "images/water-stockpile-cover.svg",
-    "recommend": false
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "長期保存水（5〜7年保存・まとめ買い）",
+        "description": "賞味期限が長く管理がラクな長期保存水。ローリングストックの手間を省きたい方に。",
+        "url": "https://www.amazon.co.jp/s?k=長期保存水+5年+防災&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-01-15-emergency-bag",
     "title": "「緊急避難用」と「備蓄」は分けたほうがいい ── わが家の防災リュック運用法",
     "date": "2026-01-15",
     "summary": "わが家の備えは「大きいリュック」「軽いリュック」「家の備蓄(2〜3ヶ月分)」の3段階。普段の食材でローリングストックする工夫や、水の箱を柱にしてすのこで棚を作る方法など、実体験をまとめました。",
-    "cover": "images/emergency-bag-cover.svg"
+    "cover": "images/emergency-bag-cover.svg",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "防災リュック（大容量・72時間対応）",
+        "description": "避難時に3日分の生活用品を持ち出せる大容量防災リュック。仕分けポケット多数。",
+        "url": "https://www.amazon.co.jp/s?k=防災リュック+大容量+72時間&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
   },
   {
     "slug": "2026-01-01-why-i-started",
@@ -74,6 +186,7 @@
     "date": "2026-01-01",
     "summary": "東日本大震災で防災を意識し始め、家族ができて備えがさらに深まりました。ブログを始めるに至った背景を、最初にお話しさせてください。",
     "cover": "images/why-i-started-cover.svg",
+    "category": "防災グッズ",
     "recommend": false
   }
 ]
