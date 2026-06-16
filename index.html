@@ -8,192 +8,216 @@
 <meta property="og:title" content="そなえLAB - 防災グッズ・便利グッズ実体験レビュー">
 <meta property="og:description" content="防災グッズ・非常食・便利グッズを実際に使ってわかったことを正直にレビュー。">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://bousai-blog.github.io/">
+<meta property="og:image" content="https://bousai-blog.github.io/images/emergency-bag-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="assets/style.css">
-<!-- Googleアドセンス（審査通過後にコメント解除）
+<!-- Google AdSense（審査通過後にコメントを解除してください）
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
 -->
 </head>
 <body>
+<div id="reading-progress"></div>
 
 <header class="site-header">
   <div class="header-inner">
     <a href="./" class="site-logo">
       <div class="site-logo-mark">🛡</div>
-      <div class="site-logo-text">
+      <div>
         <span class="site-name">そなえLAB</span>
-        <span class="site-tagline">防災グッズ・便利グッズ 実体験レビュー</span>
+        <span class="site-sub">防災・便利グッズ 実体験レビュー</span>
       </div>
     </a>
-    <nav class="header-nav" aria-label="カテゴリナビ">
-      <a href="./?cat=防災グッズ">防災グッズ</a>
-      <a href="./?cat=非常食・備蓄">非常食・備蓄</a>
-      <a href="./?cat=電源・エネルギー">電源</a>
-      <a href="./?cat=衛生・医療">衛生・医療</a>
-      <a href="./?cat=防犯">防犯</a>
-      <a href="./?cat=便利グッズ">便利グッズ</a>
+    <nav class="header-nav" aria-label="カテゴリ">
+      <a href="./?cat=防災グッズ">🎒 防災</a>
+      <a href="./?cat=非常食・備蓄">🍱 食料</a>
+      <a href="./?cat=電源・エネルギー">⚡ 電源</a>
+      <a href="./?cat=衛生・医療">🧼 衛生</a>
+      <a href="./?cat=防犯">🔒 防犯</a>
+      <a href="./?cat=便利グッズ">✨ 便利</a>
     </nav>
   </div>
 </header>
 
-<section class="hero">
+<div class="category-bar" role="navigation" aria-label="カテゴリ絞り込み">
+  <div class="category-bar-inner">
+    <button class="cat-btn active" data-cat="all">すべて</button>
+    <button class="cat-btn" data-cat="防災グッズ">🎒 防災グッズ</button>
+    <button class="cat-btn" data-cat="非常食・備蓄">🍱 非常食・備蓄</button>
+    <button class="cat-btn" data-cat="電源・エネルギー">⚡ 電源・エネルギー</button>
+    <button class="cat-btn" data-cat="衛生・医療">🧼 衛生・医療</button>
+    <button class="cat-btn" data-cat="防犯">🔒 防犯</button>
+    <button class="cat-btn" data-cat="便利グッズ">✨ 便利グッズ</button>
+  </div>
+</div>
+
+<main>
   <div class="container">
-    <h2>実際に使って、正直に伝える防災ブログ</h2>
-    <p>防災グッズ・非常食・便利グッズを「わが家」で試した体験をもとにレビュー。<br>
-    完璧でなくていい。まず一つ、できるところから始めましょう。</p>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-num" id="stat-count">—</span>
-        <span class="hero-stat-label">記事</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">6</span>
-        <span class="hero-stat-label">カテゴリ</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">毎週</span>
-        <span class="hero-stat-label">更新</span>
-      </div>
+    <div class="search-wrap" role="search">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input class="search-input" type="search" id="search-input"
+             placeholder="記事を検索..." autocomplete="off" aria-label="記事を検索">
     </div>
-  </div>
-</section>
 
-<main class="container">
-  <div class="category-section">
-    <div class="category-filter" role="group" aria-label="カテゴリ絞り込み">
-      <button class="cat-btn active" data-cat="all">すべて</button>
-      <button class="cat-btn" data-cat="防災グッズ">🎒 防災グッズ</button>
-      <button class="cat-btn" data-cat="非常食・備蓄">🍱 非常食・備蓄</button>
-      <button class="cat-btn" data-cat="電源・エネルギー">⚡ 電源・エネルギー</button>
-      <button class="cat-btn" data-cat="衛生・医療">🧼 衛生・医療</button>
-      <button class="cat-btn" data-cat="防犯">🔒 防犯</button>
-      <button class="cat-btn" data-cat="便利グッズ">✨ 便利グッズ</button>
+    <div class="list-header">
+      <h2 class="list-title">記事一覧</h2>
+      <span class="post-count-label" id="count-label"></span>
     </div>
-  </div>
 
-  <div class="section-header">
-    <h2 class="section-title">記事一覧</h2>
-    <span class="post-count" id="post-count-label"></span>
+    <ul id="post-list" class="post-grid" aria-live="polite">
+      <li class="state-msg">読み込み中...</li>
+    </ul>
   </div>
-
-  <ul id="post-list" class="post-grid">
-    <li class="loading">読み込み中...</li>
-  </ul>
 </main>
 
+<!-- モバイル BottomNav -->
+<nav class="bottom-nav" aria-label="モバイルナビ">
+  <div class="bottom-nav-inner">
+    <button class="bottom-nav-btn active" data-cat="all" aria-label="すべて">
+      <span class="nav-icon">🏠</span>すべて
+    </button>
+    <button class="bottom-nav-btn" data-cat="防災グッズ" aria-label="防災グッズ">
+      <span class="nav-icon">🎒</span>防災
+    </button>
+    <button class="bottom-nav-btn" data-cat="非常食・備蓄" aria-label="非常食・備蓄">
+      <span class="nav-icon">🍱</span>食料
+    </button>
+    <button class="bottom-nav-btn" data-cat="電源・エネルギー" aria-label="電源・エネルギー">
+      <span class="nav-icon">⚡</span>電源
+    </button>
+    <button class="bottom-nav-btn" data-cat="衛生・医療" aria-label="衛生・医療">
+      <span class="nav-icon">🧼</span>衛生
+    </button>
+  </div>
+</nav>
+
 <footer class="site-footer">
-  <div class="footer-inner">
+  <div class="footer-body">
     <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-name">🛡 そなえLAB</div>
-        <div class="footer-desc">防災グッズ・便利グッズを実際に試してレビュー</div>
+      <div>
+        <div class="footer-brand-name">🛡 そなえLAB</div>
+        <div class="footer-brand-desc">防災グッズ・便利グッズを実際に試してレビュー</div>
       </div>
       <nav class="footer-links">
         <a href="./">トップ</a>
         <a href="./?cat=防災グッズ">防災グッズ</a>
         <a href="./?cat=非常食・備蓄">非常食・備蓄</a>
-        <a href="./?cat=電源・エネルギー">電源</a>
+        <a href="./?cat=電源・エネルギー">電源・エネルギー</a>
       </nav>
     </div>
     <div class="footer-bottom">
       <p>© そなえLAB</p>
-      <p>※ 当サイトはAmazonアソシエイト・プログラムをはじめとするアフィリエイトプログラムに参加しています。
-      リンクから商品をご購入いただくと運営者に報酬が入る場合があります。記事の内容は個人の体験・調査に基づいており、
-      掲載商品の効果を保証するものではありません。</p>
+      <p>※ 当サイトはAmazonアソシエイト・プログラムをはじめとするアフィリエイトプログラムに参加しています。リンクから商品をご購入いただくと運営者に報酬が入る場合があります。記事の内容は個人の体験・調査に基づくものであり、掲載商品の効果・性能を保証するものではありません。</p>
     </div>
   </div>
 </footer>
 
 <script>
-(async () => {
-  const list = document.getElementById('post-list');
-  const countLabel = document.getElementById('post-count-label');
-  const statCount = document.getElementById('stat-count');
-  const catBtns = document.querySelectorAll('.cat-btn');
+(() => {
+  const list      = document.getElementById('post-list');
+  const countLbl  = document.getElementById('count-label');
+  const searchIn  = document.getElementById('search-input');
+  const catBtns   = document.querySelectorAll('.cat-btn, .bottom-nav-btn');
 
-  // URLからカテゴリ取得
-  const urlParams = new URLSearchParams(location.search);
-  let activeCat = urlParams.get('cat') || 'all';
+  const urlParams  = new URLSearchParams(location.search);
+  let activeCat    = urlParams.get('cat') || 'all';
+  let searchQuery  = '';
+  let allPosts     = [];
 
-  let allPosts = [];
+  // 7日以内かどうか
+  const isNew = d => (Date.now() - new Date(d)) < 7 * 86400000;
+
+  function catClass(cat) {
+    return 'cat-' + (cat || '防災グッズ');
+  }
 
   function renderPosts(posts) {
-    const now = new Date();
-    const oneWeekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
-    list.innerHTML = '';
-    countLabel.textContent = `${posts.length}件`;
     if (posts.length === 0) {
-      list.innerHTML = '<li class="empty">該当する記事がありません。</li>';
+      list.innerHTML = '<li class="state-msg">該当する記事がありません。</li>';
+      countLbl.textContent = '0件';
       return;
     }
-    for (const p of posts) {
-      const postDate = new Date(p.date);
-      const isNew = postDate >= oneWeekAgo;
+    countLbl.textContent = posts.length + '件';
+    list.innerHTML = '';
+    posts.forEach(p => {
       const cat = p.category || '防災グッズ';
-      const catClass = `cat-${CSS.escape(cat)}`;
       const li = document.createElement('li');
       li.className = 'post-item';
       li.dataset.category = cat;
       const cover = p.cover
-        ? `<div class="post-cover"><img src="${p.cover}" alt="${p.title}" loading="lazy"></div>`
+        ? `<div class="post-thumb"><img src="${p.cover}" alt="${p.title}" loading="lazy"></div>`
         : '';
       li.innerHTML = `
         <a class="post-link" href="post.html?slug=${encodeURIComponent(p.slug)}">
           ${cover}
           <div class="post-body">
-            <div class="post-meta-top">
-              <span class="post-category ${catClass}">${cat}</span>
+            <div class="post-top-meta">
+              <span class="post-cat-badge ${catClass(cat)}">${cat}</span>
               <time class="post-date">${p.date}</time>
-              ${isNew ? '<span class="post-new-badge">NEW</span>' : ''}
+              ${isNew(p.date) ? '<span class="new-badge">NEW</span>' : ''}
             </div>
             <span class="post-title">${p.title}</span>
             ${p.summary ? `<span class="post-summary">${p.summary}</span>` : ''}
           </div>
-        </a>
-      `;
+        </a>`;
       list.appendChild(li);
-    }
+    });
   }
 
-  function filterPosts(cat) {
+  function applyFilter() {
+    let filtered = allPosts;
+    if (activeCat !== 'all') {
+      filtered = filtered.filter(p => p.category === activeCat);
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      filtered = filtered.filter(p =>
+        p.title.toLowerCase().includes(q) ||
+        (p.summary || '').toLowerCase().includes(q)
+      );
+    }
+    renderPosts(filtered);
+  }
+
+  function setActiveCat(cat) {
     activeCat = cat;
     catBtns.forEach(btn => {
       btn.classList.toggle('active', btn.dataset.cat === cat);
     });
-    const filtered = cat === 'all' ? allPosts : allPosts.filter(p => p.category === cat);
-    renderPosts(filtered);
-    // URLを更新（再読み込みなし）
     const url = cat === 'all' ? './' : `./?cat=${encodeURIComponent(cat)}`;
     history.replaceState(null, '', url);
+    applyFilter();
   }
 
-  // カテゴリボタンのイベント
-  catBtns.forEach(btn => {
-    btn.addEventListener('click', () => filterPosts(btn.dataset.cat));
+  catBtns.forEach(btn => btn.addEventListener('click', () => setActiveCat(btn.dataset.cat)));
+
+  // デバウンス検索
+  let searchTimer;
+  searchIn.addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      searchQuery = e.target.value.trim();
+      applyFilter();
+    }, 250);
   });
 
-  // ヘッダーナビのアクティブ化
+  // ヘッダーナビのアクティブ設定
   document.querySelectorAll('.header-nav a').forEach(a => {
-    const url = new URL(a.href);
-    const cat = url.searchParams.get('cat');
+    const cat = new URL(a.href).searchParams.get('cat');
     if (cat === activeCat) a.classList.add('active');
   });
 
-  try {
-    const res = await fetch('posts/posts.json?_=' + Date.now());
-    if (!res.ok) throw new Error('記事の取得に失敗しました');
-    allPosts = await res.json();
-    allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));
-    statCount.textContent = allPosts.length;
-
-    // 初期フィルター適用
-    filterPosts(activeCat);
-    // アクティブなカテゴリボタンを設定
-    catBtns.forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.cat === activeCat);
-    });
-  } catch (e) {
-    list.innerHTML = `<li class="error">読み込みに失敗しました: ${e.message}</li>`;
-  }
+  (async () => {
+    try {
+      const res = await fetch('posts/posts.json?_=' + Date.now());
+      if (!res.ok) throw new Error('記事の取得に失敗しました');
+      allPosts = await res.json();
+      allPosts.sort((a, b) => a.date < b.date ? 1 : -1);
+      setActiveCat(activeCat);
+    } catch (e) {
+      list.innerHTML = `<li class="state-msg" style="color:#b91c1c">読み込みに失敗しました: ${e.message}</li>`;
+    }
+  })();
 })();
 </script>
 </body>
