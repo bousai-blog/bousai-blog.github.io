@@ -3,96 +3,255 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>記事 - そなえと、ちいさな工夫</title>
+<title>記事 - そなえLAB</title>
+<meta name="description" content="">
+<meta property="og:type" content="article">
 <link rel="stylesheet" href="assets/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
-
-<!-- ▼▼▼ Googleアドセンス用：審査に通ったら、下の行のコメントを外してご自身の発行コードに差し替えてください ▼▼▼
+<!-- Googleアドセンス（審査通過後にコメント解除）
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
-▲▲▲ Googleアドセンス用 ▲▲▲ -->
+-->
 </head>
 <body>
+
 <header class="site-header">
-  <div class="container">
-    <h1 class="site-title"><a href="./">🌿 そなえと、ちいさな工夫</a></h1>
-    <p class="site-tagline">防災のそなえから、日々のちいさな工夫まで</p>
+  <div class="header-inner">
+    <a href="./" class="site-logo">
+      <div class="site-logo-mark">🛡</div>
+      <div class="site-logo-text">
+        <span class="site-name">そなえLAB</span>
+        <span class="site-tagline">防災グッズ・便利グッズ 実体験レビュー</span>
+      </div>
+    </a>
+    <nav class="header-nav" aria-label="カテゴリナビ">
+      <a href="./?cat=防災グッズ">防災グッズ</a>
+      <a href="./?cat=非常食・備蓄">非常食・備蓄</a>
+      <a href="./?cat=電源・エネルギー">電源</a>
+      <a href="./?cat=衛生・医療">衛生・医療</a>
+      <a href="./?cat=防犯">防犯</a>
+      <a href="./?cat=便利グッズ">便利グッズ</a>
+    </nav>
   </div>
 </header>
 
-<main class="container">
-  <p><a class="back-link" href="./">← 記事一覧に戻る</a></p>
+<main class="container article-wrap">
+  <nav class="breadcrumb" aria-label="パンくずリスト">
+    <a href="./">トップ</a>
+    <span>›</span>
+    <span id="breadcrumb-cat">記事</span>
+    <span>›</span>
+    <span id="breadcrumb-title">読み込み中...</span>
+  </nav>
+
   <article id="article" class="article">
-    <p class="loading">読み込み中...</p>
+    <p class="loading" style="padding:40px;text-align:center">読み込み中...</p>
   </article>
 
-  <!-- 記事下のおすすめ商品枠（記事ごとに表示/非表示を切り替え可能） -->
   <aside id="recommend-box" class="recommend-box" hidden>
-    <h3 class="recommend-title">🛒 編集部おすすめの防災グッズ</h3>
-    <p class="recommend-note">この記事を読んだ方におすすめの商品です。</p>
-    <div class="recommend-items">
-      <a class="affiliate-link-card" href="https://www.amazon.co.jp/dp/B073WRT9WV/?tag=msalpha0123-22" target="_blank" rel="nofollow sponsored noopener">
-        <span class="affiliate-link-title">🎒 VIAGGIO 多機能デイパック（特大サイズ・型番8213）</span>
-        <span class="affiliate-link-note">わが家でも使っている、防災用にぴったりの大容量リュック。ポケットも多く、防災グッズの仕分けがしやすいです。</span>
-        <span class="affiliate-link-button">Amazonで詳細を見る →</span>
-      </a>
-    </div>
+    <h3 class="recommend-title">🛒 この記事に関連するおすすめ商品</h3>
+    <p class="recommend-note">※アフィリエイトリンクを含みます</p>
+    <div class="recommend-items" id="recommend-items"></div>
   </aside>
+
+  <section class="related-section" id="related-section" hidden>
+    <h3 class="related-title">関連記事</h3>
+    <ul class="related-grid" id="related-list"></ul>
+  </section>
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <small>© そなえと、ちいさな工夫</small>
-    <br><small class="disclosure">※当サイトはアフィリエイトプログラムを利用しており、リンクから商品をご購入いただくと運営者に報酬が入る場合があります。</small>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-name">🛡 そなえLAB</div>
+        <div class="footer-desc">防災グッズ・便利グッズを実際に試してレビュー</div>
+      </div>
+      <nav class="footer-links">
+        <a href="./">トップ</a>
+        <a href="./?cat=防災グッズ">防災グッズ</a>
+        <a href="./?cat=非常食・備蓄">非常食・備蓄</a>
+        <a href="./?cat=電源・エネルギー">電源</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© そなえLAB</p>
+      <p>※ 当サイトはAmazonアソシエイト・プログラムをはじめとするアフィリエイトプログラムに参加しています。
+      リンクから商品をご購入いただくと運営者に報酬が入る場合があります。記事の内容は個人の体験・調査に基づいており、
+      掲載商品の効果を保証するものではありません。</p>
+    </div>
   </div>
 </footer>
 
 <script>
+// marked の設定（XSS対策: sanitize htmlはしないが、rel="noopener"を付与）
+marked.use({
+  breaks: true,
+  gfm: true,
+  renderer: (() => {
+    const r = new marked.Renderer();
+    // 外部リンクに安全な属性を付与
+    r.link = ({ href, title, text }) => {
+      const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'));
+      const extra = isExternal ? ' target="_blank" rel="nofollow noopener noreferrer"' : '';
+      const t = title ? ` title="${title}"` : '';
+      return `<a href="${href}"${t}${extra}>${text}</a>`;
+    };
+    return r;
+  })()
+});
+
+// 読み時間の計算
+function calcReadTime(text) {
+  const chars = text.replace(/\s/g, '').length;
+  return Math.max(1, Math.round(chars / 400)); // 日本語400字/分
+}
+
+// カテゴリカラークラス
+function catClass(cat) {
+  return `cat-${cat || '防災グッズ'}`;
+}
+
 (async () => {
   const article = document.getElementById('article');
   const params = new URLSearchParams(location.search);
   const slug = params.get('slug');
+
   if (!slug) {
-    article.innerHTML = '<p class="error">記事が指定されていません。</p>';
+    article.innerHTML = '<p class="error" style="padding:20px">記事が指定されていません。</p>';
     return;
   }
   const safeSlug = slug.replace(/[^a-zA-Z0-9\-_]/g, '');
   if (!safeSlug) {
-    article.innerHTML = '<p class="error">記事IDが不正です。</p>';
+    article.innerHTML = '<p class="error" style="padding:20px">記事IDが不正です。</p>';
     return;
   }
+
   try {
-    const indexRes = await fetch('posts/posts.json?_=' + Date.now());
+    // posts.json と記事本文を並行取得
+    const [indexRes, mdRes] = await Promise.all([
+      fetch('posts/posts.json?_=' + Date.now()),
+      fetch(`posts/${safeSlug}.md?_=` + Date.now())
+    ]);
+
+    if (!indexRes.ok) throw new Error('記事一覧の取得に失敗しました');
     const posts = await indexRes.json();
     const meta = posts.find(p => p.slug === safeSlug);
     if (!meta) {
-      article.innerHTML = '<p class="error">記事が見つかりませんでした。</p>';
+      article.innerHTML = '<p class="error" style="padding:20px">記事が見つかりませんでした。</p>';
       return;
     }
-    const mdRes = await fetch(`posts/${safeSlug}.md?_=` + Date.now());
-    if (!mdRes.ok) throw new Error('本文を取得できませんでした');
+
+    if (!mdRes.ok) throw new Error('本文の取得に失敗しました');
     const md = await mdRes.text();
-    document.title = `${meta.title} - そなえと、ちいさな工夫`;
+
+    // メタ設定
+    document.title = `${meta.title} - そなえLAB`;
+    const desc = meta.summary || '';
+    document.querySelector('meta[name="description"]').setAttribute('content', desc);
+
+    // パンくず
+    const cat = meta.category || '記事';
+    document.getElementById('breadcrumb-cat').innerHTML =
+      `<a href="./?cat=${encodeURIComponent(cat)}">${cat}</a>`;
+    document.getElementById('breadcrumb-title').textContent =
+      meta.title.length > 30 ? meta.title.slice(0, 30) + '…' : meta.title;
+
+    const readTime = calcReadTime(md);
 
     const coverHtml = meta.cover
-      ? `<figure class="article-cover"><img src="${meta.cover}" alt=""></figure>`
+      ? `<figure class="article-cover"><img src="${meta.cover}" alt="${meta.title}" loading="eager"></figure>`
       : '';
+
+    // PR表示があるかどうか
+    const hasPr = md.includes('アフィリエイト') || md.includes('PR') || (meta.products && meta.products.length > 0);
+    const prHtml = hasPr
+      ? `<p class="pr-disclosure">📢 この記事にはアフィリエイトリンクが含まれます。リンクから商品を購入いただくと運営者に報酬が入ります。</p>`
+      : '';
+
+    // シェアボタン
+    const shareUrl = encodeURIComponent(location.href);
+    const shareTitle = encodeURIComponent(meta.title + ' - そなえLAB');
+    const shareHtml = `
+      <div class="share-section">
+        <span class="share-label">この記事をシェア：</span>
+        <a class="share-btn share-btn-x"
+           href="https://twitter.com/intent/tweet?url=${shareUrl}&text=${shareTitle}"
+           target="_blank" rel="noopener">𝕏 でシェア</a>
+        <a class="share-btn share-btn-line"
+           href="https://social-plugins.line.me/lineit/share?url=${shareUrl}"
+           target="_blank" rel="noopener">LINE でシェア</a>
+      </div>
+    `;
 
     article.innerHTML = `
       <header class="article-header">
-        <time class="post-date">${meta.date}</time>
+        <div class="article-header-meta">
+          <span class="article-category ${catClass(cat)}">${cat}</span>
+          <time class="article-date">${meta.date}</time>
+          <span class="article-readtime">約${readTime}分で読めます</span>
+        </div>
         <h1 class="article-title">${meta.title}</h1>
       </header>
       ${coverHtml}
+      ${prHtml}
       <div class="article-body">${marked.parse(md)}</div>
+      ${shareHtml}
     `;
 
-    // おすすめ枠の表示制御
-    // posts.json で "recommend": false が指定されていなければ表示する（デフォルトは表示）
-    if (meta.recommend !== false) {
-      document.getElementById('recommend-box').hidden = false;
+    // おすすめ枠（products配列があれば動的生成、なければ既存の recommend フラグ判定）
+    if (meta.products && meta.products.length > 0) {
+      const box = document.getElementById('recommend-box');
+      const items = document.getElementById('recommend-items');
+      box.hidden = false;
+      items.innerHTML = meta.products.map(p => `
+        <a class="affiliate-link-card"
+           href="${p.url}"
+           target="_blank" rel="nofollow sponsored noopener">
+          <span class="affiliate-link-title">${p.title}</span>
+          ${p.description ? `<span class="affiliate-link-note">${p.description}</span>` : ''}
+          <span class="affiliate-link-button">Amazonで見る →</span>
+        </a>
+      `).join('');
+    } else if (meta.recommend !== false) {
+      // 後方互換：デフォルトのおすすめ表示
+      const box = document.getElementById('recommend-box');
+      const items = document.getElementById('recommend-items');
+      box.hidden = false;
+      items.innerHTML = `
+        <a class="affiliate-link-card"
+           href="https://www.amazon.co.jp/s?k=${encodeURIComponent(cat + ' おすすめ')}&tag=msalpha0123-22"
+           target="_blank" rel="nofollow sponsored noopener">
+          <span class="affiliate-link-title">🔍 ${cat} の商品をAmazonで探す</span>
+          <span class="affiliate-link-note">記事で紹介したカテゴリの商品一覧をAmazonで確認できます。</span>
+          <span class="affiliate-link-button">Amazonで見る →</span>
+        </a>
+      `;
     }
+
+    // 関連記事（同カテゴリ・別記事 最大4件）
+    const related = posts
+      .filter(p => p.slug !== safeSlug && (p.category === cat || !cat))
+      .slice(0, 4);
+    if (related.length > 0) {
+      const section = document.getElementById('related-section');
+      const relList = document.getElementById('related-list');
+      section.hidden = false;
+      relList.innerHTML = related.map(p => `
+        <li class="related-item">
+          <a class="related-link" href="post.html?slug=${encodeURIComponent(p.slug)}">
+            ${p.cover ? `<div class="related-cover"><img src="${p.cover}" alt="" loading="lazy"></div>` : ''}
+            <div class="related-meta">
+              <time class="related-date">${p.date}</time>
+              <div class="related-title-text">${p.title}</div>
+            </div>
+          </a>
+        </li>
+      `).join('');
+    }
+
   } catch (e) {
-    article.innerHTML = `<p class="error">読み込みに失敗しました: ${e.message}</p>`;
+    article.innerHTML = `<div style="padding:20px"><p class="error">読み込みに失敗しました: ${e.message}</p>
+      <p><a href="./">トップに戻る</a></p></div>`;
   }
 })();
 </script>
