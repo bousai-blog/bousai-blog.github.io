@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-06-17-emergency-kit-comparison",
+    "title": "市販の防災セット、買って後悔しない選び方 ── 5社を比較してわかったこと",
+    "date": "2026-06-17",
+    "summary": "市販の防災セットは「入門として便利」だが「そのままでは足りない」",
+    "cover": "images/emergency-kit-comparison-cover.png",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "LA・PITA 防災セット（2人用・72時間対応）",
+        "description": "Amazonランキング上位の定番セット。食料・水・ラジオ・救急セット含む",
+        "url": "https://www.amazon.co.jp/s?k=LA+PITA+防災セット+2人用&tag=msalpha0123-22"
+      },
+      {
+        "title": "東急ハンズ 防災リュック（単体・大容量35L）",
+        "description": "セットでなくリュック単体を選ぶなら。耐久性が高く中身を自分で選べる",
+        "url": "https://www.amazon.co.jp/s?k=防災リュック+大容量+35L+おすすめ&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-06-04-radio-information",
     "title": "災害時のラジオ・スマホ・情報源 ── 手回し充電ラジオは本当に必要か",
     "date": "2026-06-04",
