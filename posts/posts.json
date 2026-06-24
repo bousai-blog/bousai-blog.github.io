@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-06-24-portable-power-station",
+    "title": "ポータブル電源 選び方完全ガイド ── 停電対策に本当に必要な容量はどれくらいか",
+    "date": "2026-06-24",
+    "summary": "容量（Wh）の目安：スマホ・扇風機・冷蔵庫は何時間動くか",
+    "cover": "images/portable-power-station-cover.png",
+    "category": "電源・エネルギー",
+    "products": [
+      {
+        "title": "Jackery ポータブル電源 512Wh（Explorer 500）",
+        "description": "コスパ最強の中容量帯。スマホ・扇風機・照明を丸1日使える",
+        "url": "https://www.amazon.co.jp/s?k=Jackery+ポータブル電源+500+Explorer&tag=msalpha0123-22"
+      },
+      {
+        "title": "EcoFlow DELTA 1000Wh ポータブル電源",
+        "description": "大容量で冷蔵庫も動かせる。長期停電対策に最適",
+        "url": "https://www.amazon.co.jp/s?k=EcoFlow+DELTA+1000+ポータブル電源&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-06-17-emergency-kit-comparison",
     "title": "市販の防災セット、買って後悔しない選び方 ── 5社を比較してわかったこと",
     "date": "2026-06-17",
