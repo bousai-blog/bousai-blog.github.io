@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-01-summer-heatstroke-prep",
+    "title": "停電の夏、熱中症対策グッズを真剣に揃えた話 ── 扇風機・保冷剤・クールタオル",
+    "date": "2026-07-01",
+    "summary": "停電時の熱中症リスクは想像以上に高い（過去の統計）",
+    "cover": "images/summer-heatstroke-prep-cover.png",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "KEYNICE USB充電式ハンディファン（7枚羽根）",
+        "description": "充電式で持ち歩ける。バッテリー内蔵で停電時も使えるハンディ扇風機",
+        "url": "https://www.amazon.co.jp/s?k=KEYNICE+充電式+ハンディファン+7枚羽&tag=msalpha0123-22"
+      },
+      {
+        "title": "Chill Pal メッシュ スポーツクールタオル",
+        "description": "水に濡らして振ると急冷。繰り返し使えて経済的",
+        "url": "https://www.amazon.co.jp/s?k=クールタオル+冷感+速乾+スポーツ+防災&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-06-24-portable-power-station",
     "title": "ポータブル電源 選び方完全ガイド ── 停電対策に本当に必要な容量はどれくらいか",
     "date": "2026-06-24",
