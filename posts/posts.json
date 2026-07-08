@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-07-08-typhoon-season-prep",
+    "title": "台風シーズン前にやっておく10のこと ── わが家の台風対策リスト",
+    "date": "2026-07-08",
+    "summary": "台風前日・当日・直後にやること（チェックリスト形式）",
+    "cover": "images/typhoon-season-prep-cover.png",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "土嚢屋 吸水土のう袋（水害対策用）",
+        "description": "水を含むと膨らむ吸水タイプ。砂が不要で手軽に浸水対策できる",
+        "url": "https://www.amazon.co.jp/s?k=吸水土のう袋+水害対策+膨らむ&tag=msalpha0123-22"
+      },
+      {
+        "title": "ニトムズ 養生テープ（台風 窓補強用）",
+        "description": "飛散防止に。テープよりフィルムのほうが効果的な理由も記事で解説",
+        "url": "https://www.amazon.co.jp/s?k=ニトムズ+養生テープ+台風+窓&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-07-01-summer-heatstroke-prep",
     "title": "停電の夏、熱中症対策グッズを真剣に揃えた話 ── 扇風機・保冷剤・クールタオル",
     "date": "2026-07-01",
