@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-07-15-family-disaster-plan",
+    "title": "家族と一緒に作る「防災計画」── 話し合いのポイントと無料ツール",
+    "date": "2026-07-15",
+    "summary": "防災の日（9/1）に合わせて家族会議をする意義",
+    "cover": "images/family-disaster-plan-cover.png",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "東京都防災 防災ブック（家族用 A4サイズ）",
+        "description": "避難計画・家族の情報をまとめる防災手帳。自由記入欄が充実",
+        "url": "https://www.amazon.co.jp/s?k=防災手帳+家族+避難計画+記入式&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-07-08-typhoon-season-prep",
     "title": "台風シーズン前にやっておく10のこと ── わが家の台風対策リスト",
     "date": "2026-07-08",
@@ -125,7 +141,7 @@
     "title": "水が使えないとき、お風呂はどうする？ ── わが家の衛生グッズ事情",
     "date": "2026-05-07",
     "summary": "災害で水が止まったとき、お風呂はどうする？ わが家にあるドライシャンプーと歯磨きシート、まだ使ったことがない正直な実態と、調べて分かったことをまとめました。",
-    "cover": "images/hygiene-items-cover.svg",
+    "cover": "images/hygiene-items-cover.png",
     "category": "衛生・医療",
     "products": [
       {
@@ -141,7 +157,7 @@
     "title": "簡易トイレ10個じゃ足りなかった ── わが家のトイレ備蓄、見直してみました",
     "date": "2026-04-23",
     "summary": "災害時のトイレは、思っていたよりずっと多くの数が必要でした。「男だから外でいい」と軽く考えていた自分の反省と、わが家の見直しプランを正直にお話しします。",
-    "cover": "images/toilet-stockpile-cover.svg",
+    "cover": "images/toilet-stockpile-cover.png",
     "category": "衛生・医療",
     "products": [
       {
@@ -157,7 +173,7 @@
     "title": "太陽光パネル、停電のときに使えますか？ ── わが家の電気の備え",
     "date": "2026-04-09",
     "summary": "屋根の太陽光パネルは、停電時に「自立運転モード」へ切り替えると日中の電気が使えます。意外と知られていないこの機能と、わが家のシンプルな電気の備え4つをお話しします。",
-    "cover": "images/solar-panel-power-cover.svg",
+    "cover": "images/solar-panel-power-cover.png",
     "category": "電源・エネルギー",
     "products": [
       {
@@ -173,7 +189,7 @@
     "title": "スーパーの袋でランタンに? ── 災害時のライト、わが家の備え方",
     "date": "2026-03-26",
     "summary": "災害時のライトは、専用品をたくさん揃えなくても、家にあるもので十分代用できます。わが家のライト4種類の使い分けと、懐中電灯を簡易ランタンにする小ワザをご紹介。",
-    "cover": "images/flashlight-lantern-cover.svg",
+    "cover": "images/flashlight-lantern-cover.png",
     "category": "防災グッズ",
     "products": [
       {
@@ -189,7 +205,7 @@
     "title": "3月は、わが家の「そなえ点検」の月",
     "date": "2026-03-12",
     "summary": "3月になると、テレビで震災の特集が増えてきます。10年以上続けている「そなえ点検」の中身と、家族と一緒に続けるためのちいさな工夫を、ありのままにお話しします。",
-    "cover": "images/march-check-cover.svg",
+    "cover": "images/march-check-cover.png",
     "category": "防災グッズ",
     "products": [
       {
@@ -205,7 +221,7 @@
     "title": "普段から食べていれば、非常食じゃなくなる ── 缶詰・レトルト・フリーズドライの使い分け",
     "date": "2026-02-26",
     "summary": "非常食は特別なものを揃えなくていい。わが家の缶詰・レトルト・フリーズドライの備え方と、忙しい日にも重宝する日常使いの工夫を、正直にお話しします。",
-    "cover": "images/canned-retort-freezedry-cover.svg",
+    "cover": "images/canned-retort-freezedry-cover.png",
     "category": "非常食・備蓄",
     "products": [
       {
@@ -221,7 +237,7 @@
     "title": "5年保存のアルファ米って、本当に美味しい? ── 食べてみて分かったこと",
     "date": "2026-02-12",
     "summary": "防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリットをお伝えします。",
-    "cover": "images/alpha-rice-cover.svg",
+    "cover": "images/alpha-rice-cover.png",
     "category": "非常食・備蓄",
     "products": [
       {
@@ -237,7 +253,7 @@
     "title": "結局500mlが使いやすかった ── わが家の水備蓄、2Lから移行中の話",
     "date": "2026-01-29",
     "summary": "長期保存水と普通のペットボトル水、両方を備蓄しているわが家の試行錯誤。コスパなら2Lだけど、回しやすさでは500mlがダンゼン使いやすい、という気づきまでの話。",
-    "cover": "images/water-stockpile-cover.svg",
+    "cover": "images/water-stockpile-cover.png",
     "category": "非常食・備蓄",
     "products": [
       {
@@ -253,7 +269,7 @@
     "title": "「緊急避難用」と「備蓄」は分けたほうがいい ── わが家の防災リュック運用法",
     "date": "2026-01-15",
     "summary": "わが家の備えは「大きいリュック」「軽いリュック」「家の備蓄(2〜3ヶ月分)」の3段階。普段の食材でローリングストックする工夫や、水の箱を柱にしてすのこで棚を作る方法など、実体験をまとめました。",
-    "cover": "images/emergency-bag-cover.svg",
+    "cover": "images/emergency-bag-cover.png",
     "category": "防災グッズ",
     "products": [
       {
@@ -269,7 +285,7 @@
     "title": "防災を本気で考え始めた、私のきっかけ",
     "date": "2026-01-01",
     "summary": "東日本大震災で防災を意識し始め、家族ができて備えがさらに深まりました。ブログを始めるに至った背景を、最初にお話しさせてください。",
-    "cover": "images/why-i-started-cover.svg",
+    "cover": "images/why-i-started-cover.png",
     "category": "防災グッズ",
     "recommend": false
   }

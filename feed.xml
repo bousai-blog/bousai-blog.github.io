@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>そなえLAB</title>
+    <link>https://bousai-blog.github.io/</link>
+    <description>防災グッズ・非常食・便利グッズを実際に使ってわかったことを正直にレビュー。家族を守る備えを、無理なく、賢く。</description>
+    <language>ja</language>
+    <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>家族と一緒に作る「防災計画」── 話し合いのポイントと無料ツール</title>
+      <link>https://bousai-blog.github.io/posts/2026-07-15-family-disaster-plan/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-07-15-family-disaster-plan/</guid>
+      <description>防災の日（9/1）に合わせて家族会議をする意義</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>台風シーズン前にやっておく10のこと ── わが家の台風対策リスト</title>
+      <link>https://bousai-blog.github.io/posts/2026-07-08-typhoon-season-prep/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-07-08-typhoon-season-prep/</guid>
+      <description>台風前日・当日・直後にやること（チェックリスト形式）</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>停電の夏、熱中症対策グッズを真剣に揃えた話 ── 扇風機・保冷剤・クールタオル</title>
+      <link>https://bousai-blog.github.io/posts/2026-07-01-summer-heatstroke-prep/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-07-01-summer-heatstroke-prep/</guid>
+      <description>停電時の熱中症リスクは想像以上に高い（過去の統計）</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>ポータブル電源 選び方完全ガイド ── 停電対策に本当に必要な容量はどれくらいか</title>
+      <link>https://bousai-blog.github.io/posts/2026-06-24-portable-power-station/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-06-24-portable-power-station/</guid>
+      <description>容量（Wh）の目安：スマホ・扇風機・冷蔵庫は何時間動くか</description>
+      <category>電源・エネルギー</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>市販の防災セット、買って後悔しない選び方 ── 5社を比較してわかったこと</title>
+      <link>https://bousai-blog.github.io/posts/2026-06-17-emergency-kit-comparison/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-06-17-emergency-kit-comparison/</guid>
+      <description>市販の防災セットは「入門として便利」だが「そのままでは足りない」</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>災害時のラジオ・スマホ・情報源 ── 手回し充電ラジオは本当に必要か</title>
+      <link>https://bousai-blog.github.io/posts/2026-06-04-radio-information/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-06-04-radio-information/</guid>
+      <description>スマホだけでは情報を取れなくなる場面があります。手回し充電ラジオの実力を半年使った正直な感想とともに、わが家の情報収集セットを公開します。</description>
+      <category>防災グッズ</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>カセットコンロは「家の防災」の主役 ── 選び方と備蓄ボンベの量の目安</title>
+      <link>https://bousai-blog.github.io/posts/2026-05-21-cassette-stove/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-05-21-cassette-stove/</guid>
+      <description>停電もガス停止も関係なく使えるカセットコンロ。ボンベの必要本数の計算式と、安全な保管方法、わが家の運用方法を正直にお話しします。</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>水が使えないとき、お風呂はどうする？ ── わが家の衛生グッズ事情</title>
+      <link>https://bousai-blog.github.io/posts/2026-05-07-hygiene-items/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-05-07-hygiene-items/</guid>
+      <description>災害で水が止まったとき、お風呂はどうする？ わが家にあるドライシャンプーと歯磨きシート、まだ使ったことがない正直な実態と、調べて分かったことをまとめました。</description>
+      <category>衛生・医療</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>簡易トイレ10個じゃ足りなかった ── わが家のトイレ備蓄、見直してみました</title>
+      <link>https://bousai-blog.github.io/posts/2026-04-23-toilet-stockpile/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-04-23-toilet-stockpile/</guid>
+      <description>災害時のトイレは、思っていたよりずっと多くの数が必要でした。「男だから外でいい」と軽く考えていた自分の反省と、わが家の見直しプランを正直にお話しします。</description>
+      <category>衛生・医療</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>太陽光パネル、停電のときに使えますか？ ── わが家の電気の備え</title>
+      <link>https://bousai-blog.github.io/posts/2026-04-09-solar-panel-power/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-04-09-solar-panel-power/</guid>
+      <description>屋根の太陽光パネルは、停電時に「自立運転モード」へ切り替えると日中の電気が使えます。意外と知られていないこの機能と、わが家のシンプルな電気の備え4つをお話しします。</description>
+      <category>電源・エネルギー</category>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>スーパーの袋でランタンに? ── 災害時のライト、わが家の備え方</title>
+      <link>https://bousai-blog.github.io/posts/2026-03-26-flashlight-lantern/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-03-26-flashlight-lantern/</guid>
+      <description>災害時のライトは、専用品をたくさん揃えなくても、家にあるもので十分代用できます。わが家のライト4種類の使い分けと、懐中電灯を簡易ランタンにする小ワザをご紹介。</description>
+      <category>防災グッズ</category>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>3月は、わが家の「そなえ点検」の月</title>
+      <link>https://bousai-blog.github.io/posts/2026-03-12-march-check/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-03-12-march-check/</guid>
+      <description>3月になると、テレビで震災の特集が増えてきます。10年以上続けている「そなえ点検」の中身と、家族と一緒に続けるためのちいさな工夫を、ありのままにお話しします。</description>
+      <category>防災グッズ</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>普段から食べていれば、非常食じゃなくなる ── 缶詰・レトルト・フリーズドライの使い分け</title>
+      <link>https://bousai-blog.github.io/posts/2026-02-26-canned-retort-freezedry/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-02-26-canned-retort-freezedry/</guid>
+      <description>非常食は特別なものを揃えなくていい。わが家の缶詰・レトルト・フリーズドライの備え方と、忙しい日にも重宝する日常使いの工夫を、正直にお話しします。</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>5年保存のアルファ米って、本当に美味しい? ── 食べてみて分かったこと</title>
+      <link>https://bousai-blog.github.io/posts/2026-02-12-alpha-rice/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-02-12-alpha-rice/</guid>
+      <description>防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリットをお伝えします。</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>結局500mlが使いやすかった ── わが家の水備蓄、2Lから移行中の話</title>
+      <link>https://bousai-blog.github.io/posts/2026-01-29-water-stockpile/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-01-29-water-stockpile/</guid>
+      <description>長期保存水と普通のペットボトル水、両方を備蓄しているわが家の試行錯誤。コスパなら2Lだけど、回しやすさでは500mlがダンゼン使いやすい、という気づきまでの話。</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>「緊急避難用」と「備蓄」は分けたほうがいい ── わが家の防災リュック運用法</title>
+      <link>https://bousai-blog.github.io/posts/2026-01-15-emergency-bag/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-01-15-emergency-bag/</guid>
+      <description>わが家の備えは「大きいリュック」「軽いリュック」「家の備蓄(2〜3ヶ月分)」の3段階。普段の食材でローリングストックする工夫や、水の箱を柱にしてすのこで棚を作る方法など、実体験をまとめました。</description>
+      <category>防災グッズ</category>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>防災を本気で考え始めた、私のきっかけ</title>
+      <link>https://bousai-blog.github.io/posts/2026-01-01-why-i-started/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-01-01-why-i-started/</guid>
+      <description>東日本大震災で防災を意識し始め、家族ができて備えがさらに深まりました。ブログを始めるに至った背景を、最初にお話しさせてください。</description>
+      <category>防災グッズ</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

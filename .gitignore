@@ -1,0 +1,17 @@
+# このリポジトリは GitHub Pages の公開ルート。生成物と静的アセットだけを置く。
+# 記事生成スクリプト・トピック計画・機密は絶対に入れない
+# （過去に scripts/generate_post.py と topics.json、PLAN.md が公開されていた）。
+scripts/
+PLAN.md
+*.py
+
+# 機密
+.env
+*.key
+*.pem
+*OAuth*.txt
+*service_account*.json
+
+# OS/エディタ
+.DS_Store
+Thumbs.db
