@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-07-22-solar-panel-folding",
+    "title": "折りたたみソーラーパネルを買ってみた ── ポータブル電源と組み合わせた感想",
+    "date": "2026-07-22",
+    "summary": "ソーラーパネルがあると「自給自足」の感覚が得られる安心感",
+    "cover": "images/solar-panel-folding-cover.png",
+    "category": "電源・エネルギー",
+    "products": [
+      {
+        "title": "Jackery SolarSaga 100W 折りたたみソーラーパネル",
+        "description": "Jackery ポータブル電源と最も相性が良い純正パネル。軽量で持ち運び可能",
+        "url": "https://www.amazon.co.jp/s?k=Jackery+SolarSaga+100W+ソーラーパネル&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-07-15-family-disaster-plan",
     "title": "家族と一緒に作る「防災計画」── 話し合いのポイントと無料ツール",
     "date": "2026-07-15",
