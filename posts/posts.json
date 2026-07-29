@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-07-29-stockpile-shelf-diy",
+    "title": "備蓄棚を100円ショップグッズで作ってみた ── 収納と取り出しやすさを両立するコツ",
+    "date": "2026-07-29",
+    "summary": "備蓄のよくある失敗「どこに何があるかわからない」を防ぐ",
+    "cover": "images/stockpile-shelf-diy-cover.png",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "アイリスオーヤマ メタルラック（耐荷重150kg）",
+        "description": "備蓄棚の定番。高さ・段数を調節でき、倒壊防止パーツも充実",
+        "url": "https://www.amazon.co.jp/s?k=アイリスオーヤマ+メタルラック+耐荷重+備蓄&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-07-22-solar-panel-folding",
     "title": "折りたたみソーラーパネルを買ってみた ── ポータブル電源と組み合わせた感想",
     "date": "2026-07-22",
