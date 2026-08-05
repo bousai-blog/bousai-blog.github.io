@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-05-winter-power-outage",
+    "title": "冬の停電に備える暖房グッズ ── カセットガスヒーターと電池式ホッカイロの実力",
+    "date": "2026-08-05",
+    "summary": "冬の停電は熱中症より「低体温症」が怖い",
+    "cover": "images/winter-power-outage-cover.png",
+    "category": "防災グッズ",
+    "products": [
+      {
+        "title": "岩谷産業 カセットガスファンヒーター（カセットフー マルチホット CB-MH-1）",
+        "description": "室内対応のカセットガスヒーター。換気しながら使える。コンパクトで備蓄しやすい",
+        "url": "https://www.amazon.co.jp/s?k=岩谷産業+カセットガスファンヒーター+マルチホット+CB-MH&tag=msalpha0123-22"
+      },
+      {
+        "title": "日本製 アルミ保温ブランケット（まとめ買い5枚セット）",
+        "description": "体温を逃がさない緊急用ブランケット。薄くてコンパクトで防災リュックに常備できる",
+        "url": "https://www.amazon.co.jp/s?k=アルミブランケット+保温+防災+5枚セット&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-07-29-stockpile-shelf-diy",
     "title": "備蓄棚を100円ショップグッズで作ってみた ── 収納と取り出しやすさを両立するコツ",
     "date": "2026-07-29",
