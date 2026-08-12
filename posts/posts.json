@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-08-12-water-purifier-portable",
+    "title": "備蓄水が尽きたとき、どうする？ ── 携帯浄水器と煮沸の現実的な話",
+    "date": "2026-08-12",
+    "summary": "備蓄水だけでは長期断水に対応できない現実",
+    "cover": "images/water-purifier-portable-cover.png",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "LifeStraw Personal Water Filter（ライフストロー）",
+        "description": "世界で最も有名な携帯浄水器。0.2ミクロンのフィルターで細菌・原虫を99.9%除去",
+        "url": "https://www.amazon.co.jp/s?k=LifeStraw+Personal+Water+Filter+携帯浄水器&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-08-05-winter-power-outage",
     "title": "冬の停電に備える暖房グッズ ── カセットガスヒーターと電池式ホッカイロの実力",
     "date": "2026-08-05",
