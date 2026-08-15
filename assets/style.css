@@ -759,6 +759,9 @@ a.cat-badge:hover { background: var(--accent); color: #fff; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-content: start; }
 .footer-links a { font-size: 0.8125rem; color: var(--text-muted); transition: color var(--step); }
 .footer-links a:hover { color: var(--accent-ink); }
+/* サイト情報（運営者情報・プライバシーポリシー等）はカテゴリ導線と区別する */
+.footer-links-sub { padding-top: 1.25rem; }
+.footer-links-sub a { text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 0.2em; }
 .footer-bottom { padding-top: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; }
 .footer-bottom p { font-size: 0.75rem; color: var(--text-muted); }
 .footer-disclaimer { line-height: 1.8; max-width: 52rem; }
