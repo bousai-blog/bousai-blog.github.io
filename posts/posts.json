@@ -1,5 +1,26 @@
 [
   {
+    "slug": "2026-08-19-first-aid-kit",
+    "title": "家庭の救急箱、見直してみたら意外と不足していたもの",
+    "date": "2026-08-19",
+    "summary": "救急箱の「よくある盲点」（絆創膏だけでは足りない）",
+    "cover": "images/first-aid-kit-cover.png",
+    "category": "衛生・医療",
+    "products": [
+      {
+        "title": "タニタ 家庭用救急セット（防災対応・大容量）",
+        "description": "三角巾・包帯・消毒セット含む本格的な救急セット。防水ポーチ付き",
+        "url": "https://www.amazon.co.jp/s?k=家庭用+救急セット+三角巾+包帯+防災+大容量&tag=msalpha0123-22"
+      },
+      {
+        "title": "日本赤十字社監修 応急手当ガイドブック",
+        "description": "いざというとき何もできない問題を解消。図解入りで読みやすい",
+        "url": "https://www.amazon.co.jp/s?k=応急手当+ガイドブック+日本赤十字+図解&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-08-12-water-purifier-portable",
     "title": "備蓄水が尽きたとき、どうする？ ── 携帯浄水器と煮沸の現実的な話",
     "date": "2026-08-12",
