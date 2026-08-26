@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-08-26-security-camera-home",
+    "title": "防犯カメラを玄関に設置してみた ── 工事不要・Wi-Fiカメラの実力と注意点",
+    "date": "2026-08-26",
+    "summary": "設置してから変わった「安心感」の話",
+    "cover": "images/security-camera-home-cover.png",
+    "category": "防犯",
+    "products": [
+      {
+        "title": "TP-Link Tapo C100 屋内 Wi-Fiカメラ（100万画素）",
+        "description": "設置簡単・スマホ連動・動体検知・夜間撮影対応。防犯入門に最適な人気モデル",
+        "url": "https://www.amazon.co.jp/s?k=TP-Link+Tapo+C100+防犯カメラ+WiFi&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-08-19-first-aid-kit",
     "title": "家庭の救急箱、見直してみたら意外と不足していたもの",
     "date": "2026-08-19",

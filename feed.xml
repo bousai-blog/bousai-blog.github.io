@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>防犯カメラを玄関に設置してみた ── 工事不要・Wi-Fiカメラの実力と注意点</title>
+      <link>https://bousai-blog.github.io/posts/2026-08-26-security-camera-home/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-08-26-security-camera-home/</guid>
+      <description>設置してから変わった「安心感」の話</description>
+      <category>防犯</category>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>家庭の救急箱、見直してみたら意外と不足していたもの</title>
       <link>https://bousai-blog.github.io/posts/2026-08-19-first-aid-kit/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-08-19-first-aid-kit/</guid>
@@ -157,14 +165,6 @@
       <description>防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリットをお伝えします。</description>
       <category>非常食・備蓄</category>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>結局500mlが使いやすかった ── わが家の水備蓄、2Lから移行中の話</title>
-      <link>https://bousai-blog.github.io/posts/2026-01-29-water-stockpile/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-01-29-water-stockpile/</guid>
-      <description>長期保存水と普通のペットボトル水、両方を備蓄しているわが家の試行錯誤。コスパなら2Lだけど、回しやすさでは500mlがダンゼン使いやすい、という気づきまでの話。</description>
-      <category>非常食・備蓄</category>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
