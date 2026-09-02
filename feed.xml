@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>本当においしい非常食ランキング ── 実際に食べ比べた正直な感想</title>
+      <link>https://bousai-blog.github.io/posts/2026-09-02-emergency-food-ranking/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-02-emergency-food-ranking/</guid>
+      <description>「非常食はまずい」という先入観を覆したい</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>防犯カメラを玄関に設置してみた ── 工事不要・Wi-Fiカメラの実力と注意点</title>
       <link>https://bousai-blog.github.io/posts/2026-08-26-security-camera-home/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-08-26-security-camera-home/</guid>
@@ -157,14 +165,6 @@
       <description>非常食は特別なものを揃えなくていい。わが家の缶詰・レトルト・フリーズドライの備え方と、忙しい日にも重宝する日常使いの工夫を、正直にお話しします。</description>
       <category>非常食・備蓄</category>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>5年保存のアルファ米って、本当に美味しい? ── 食べてみて分かったこと</title>
-      <link>https://bousai-blog.github.io/posts/2026-02-12-alpha-rice/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-02-12-alpha-rice/</guid>
-      <description>防災備蓄の本命「アルファ米」。実際に複数のメーカー・味を試食してみて分かった、味の感想と意外なメリットをお伝えします。</description>
-      <category>非常食・備蓄</category>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

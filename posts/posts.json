@@ -1,5 +1,21 @@
 [
   {
+    "slug": "2026-09-02-emergency-food-ranking",
+    "title": "本当においしい非常食ランキング ── 実際に食べ比べた正直な感想",
+    "date": "2026-09-02",
+    "summary": "「非常食はまずい」という先入観を覆したい",
+    "cover": "images/emergency-food-ranking-cover.png",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "尾西食品 アルファ米（全16種・食べ比べセット）",
+        "description": "非常食の定番。お湯でも水でも戻せる。全16種類を食べ比べできるセット",
+        "url": "https://www.amazon.co.jp/s?k=尾西食品+アルファ米+食べ比べ+セット&tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-08-26-security-camera-home",
     "title": "防犯カメラを玄関に設置してみた ── 工事不要・Wi-Fiカメラの実力と注意点",
     "date": "2026-08-26",
