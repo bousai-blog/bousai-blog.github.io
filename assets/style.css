@@ -687,6 +687,45 @@ a.cat-badge:hover { background: var(--accent); color: #fff; }
   color: var(--text-muted);
 }
 
+/* トップの災害情報。広告や商品カードと見た目を明確に分ける。
+   煽らず、しかし記事一覧に埋もれない程度の存在感にとどめる。 */
+.disaster-alerts { display: grid; gap: 0.75rem; margin: 0 0 1.75rem; }
+.alert-card {
+  padding: 1.125rem 1.25rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid #b4432f;
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.alert-head {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.alert-tag {
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--r-sm);
+  background: #b4432f;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.alert-headline { margin: 0 0 0.375rem; font-size: 1rem; font-weight: 700; line-height: 1.6; }
+.alert-body { margin: 0; font-size: 0.875rem; line-height: 1.85; color: var(--text-muted); }
+.alert-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+.alert-link svg { width: 1rem; height: 1rem; transition: transform var(--step); }
+.alert-link:hover svg { transform: translateX(3px); }
+
 /* 画像がイメージであることの注記。景表法上の打消し表示にならないよう、
    極端に小さくしたり薄くしたりしない（本文の 0.8 倍・十分なコントラストを保つ）。 */
 .image-note {
