@@ -748,6 +748,24 @@ a.cat-badge:hover { background: var(--accent); color: #fff; }
   transition: border-color var(--step), transform var(--step);
 }
 .product-card:hover { border-color: var(--cta); transform: translateY(-1px); }
+/* 販売元ごとのボタン。どこで買えるかを一目で分かるようにする */
+.product-card-shops { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.625rem; }
+.shop-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  transition: border-color var(--step), background var(--step);
+}
+.shop-btn svg { width: 0.9rem; height: 0.9rem; }
+.shop-amazon { color: var(--cta); }
+.shop-amazon:hover { border-color: var(--cta); background: color-mix(in srgb, var(--cta) 8%, transparent); }
+.shop-rakuten { color: #bf0000; }
+.shop-rakuten:hover { border-color: #bf0000; background: color-mix(in srgb, #bf0000 8%, transparent); }
 /* 公式API経由の実物商品画像つきカード。
    画像は加工禁止のため、切り抜かず object-fit: contain で全体を見せる。 */
 .product-card.has-thumb { flex-direction: row; align-items: flex-start; gap: 1rem; }
