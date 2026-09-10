@@ -10,7 +10,7 @@
 🛒 LifeStraw Personal Water Filter（ライフストロー）をAmazonでチェックする
 </a>
 
-![携帯浄水器のイメージ写真](images/water-purifier-portable-scene1.png)
+[[product:0]]
 
 ## 備蓄水だけでは長期断水に対応できない理由
 

@@ -4,7 +4,7 @@
 
 不審者・宅配便の盗難・ピンポン詐欺……我が家も「防犯、気になるな」と思いながら、実際の行動には至っていませんでした。「工事が大変そう」「設定が難しそう」という先入観があったんです。でも実際にWi-Fiタイプの防犯カメラを玄関に設置してみたら、その安心感の大きさに驚きました。
 
-![WiFi防犯カメラのイメージ写真](images/security-camera-home-scene1.png)
+[[product:0]]
 
 <a class="affiliate-box" href="https://www.amazon.co.jp/s?k=TP-Link+Tapo+C100+防犯カメラ+WiFi&tag=msalpha0123-22" target="_blank" rel="nofollow sponsored noopener">
 🛒 TP-Link Tapo C100 屋内 Wi-Fiカメラ（100万画素）をAmazonでチェックする

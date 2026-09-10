@@ -10,7 +10,7 @@
 🛒 LA・PITA 防災セット（2人用・72時間対応）をAmazonでチェックする
 </a>
 
-![防災セットの中身を広げた商品写真](images/emergency-kit-comparison-scene1.png)
+[[product:0]]
 
 ## 価格帯で何が変わるのか──1万円・2万円・3万円の実際の差
 

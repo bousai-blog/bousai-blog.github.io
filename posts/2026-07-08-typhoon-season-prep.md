@@ -6,7 +6,7 @@
 
 ## 台風前の準備が全て ── 浸水対策グッズの選び方
 
-![浸水対策用吸水土のうの商品写真](images/typhoon-season-prep-scene1.png)
+[[product:1]]
 
 <a class="affiliate-box" href="https://www.amazon.co.jp/s?k=吸水土のう袋+水害対策+膨らむ&tag=msalpha0123-22" target="_blank" rel="nofollow sponsored noopener">
 🛒 土嚢屋 吸水土のう袋（水害対策用）をAmazonでチェックする

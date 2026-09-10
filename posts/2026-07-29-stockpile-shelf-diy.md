@@ -12,7 +12,7 @@
 🛒 アイリスオーヤマ メタルラック（耐荷重150kg）をAmazonでチェックする
 </a>
 
-![備蓄用メタルラックのイメージ写真](images/stockpile-shelf-diy-scene1.png)
+[[product:0]]
 
 ## 備蓄棚の基本は「高さ」と「動線」
 

@@ -38,65 +38,6 @@
     "recommend": true
   },
   {
-    "slug": "2026-09-02-emergency-food-ranking",
-    "title": "本当においしい非常食ランキング ── 実際に食べ比べた正直な感想",
-    "date": "2026-09-02",
-    "summary": "「非常食はまずい」という先入観を覆したい",
-    "cover": "images/emergency-food-ranking-cover.png",
-    "category": "非常食・備蓄",
-    "products": [
-      {
-        "title": "尾西食品 アルファ米 五目ごはん（100g×5袋）",
-        "description": "記事の総合1位。具材入りで食感に変化があり、子どもも食べやすい。お湯15分・水60分で戻せる5年保存",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/11000009_tmb_s.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2F11000009%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10000014%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      },
-      {
-        "title": "尾西食品 アルファ米 山菜おこわ（100g×5袋）",
-        "description": "記事の2位。もち米ベースで食べごたえがあり大人向けの味わい。防災以外でも消費しやすい",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/20150020_tmb-2_s.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2F20150020%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10000071%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      },
-      {
-        "title": "ハウス食品 温めずにおいしいカレー（LLヒートレスカレー）",
-        "description": "記事の3位。加熱不要でそのまま食べられる。ガス・電気が使えない発災直後に強い",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/energy/cabinet/03153809/img61355929.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00px3so.8syc09e7.g00px3so.8syc11a4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenergy%2F4902402841808-bo-60set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenergy%2Fi%2F10051900%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      },
-      {
-        "title": "はごろもフーズ シーチキン Lフレーク（缶詰）",
-        "description": "記事の4位。アルファ米と組み合わせてタンパク質を補う。缶切り不要のプルトップ式",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-convini/cabinet/kanzume/4902560012416-hp008.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00q7lco.8syc0ee1.g00q7lco.8syc1cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-convini%2F10034958%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-convini%2Fi%2F10034958%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      },
-      {
-        "title": "サンヨー堂 みかん フルーツ缶詰（5年保存）",
-        "description": "記事の5位。甘いものが心の栄養になる。子どものおやつにも使えて5年保存",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ellestore/cabinet/default/syd-1605008689.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00trcmo.8syc0e4e.g00trcmo.8syc1522/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fellestore%2Fsyd-1702605760%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fellestore%2Fi%2F10097312%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      },
-      {
-        "title": "尾西食品 アルファ米（全16種・食べ比べセット）",
-        "description": "まずは家族の好みを探したい方に。全16種類を一度に食べ比べできるセット",
-        "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/ymx1-058_tmb-5_s.jpg?_ex=300x300",
-        "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2Fymx1-058%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10002599%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
-      }
-    ],
-    "recommend": true
-  },
-  {
     "slug": "2026-08-26-security-camera-home",
     "title": "防犯カメラを玄関に設置してみた ── 工事不要・Wi-Fiカメラの実力と注意点",
     "date": "2026-08-26",
