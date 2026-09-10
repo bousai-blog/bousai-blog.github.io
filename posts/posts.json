@@ -1,5 +1,34 @@
 [
   {
+    "slug": "2026-09-10-alpha-rice-flavor-choice",
+    "title": "アルファ米は白飯と味付きご飯、どちらを備える？ ── 食塩相当量で考える",
+    "date": "2026-09-10",
+    "summary": "白飯と味付きご飯で食塩相当量が0.01gと2.5〜2.8gと大きく違う（メーカー公表値）",
+    "cover": "images/alpha-rice-flavor-choice-cover.png",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "尾西食品 アルファ米 白飯 100g×5袋",
+        "description": "食塩相当量0.01g。28品目不使用でアレルギー制限がある家族にも使える。備蓄の主軸向き",
+        "asin": "B00EVNXEJG",
+        "url": "https://www.amazon.co.jp/dp/B00EVNXEJG?tag=msalpha0123-22"
+      },
+      {
+        "title": "尾西食品 アルファ米 ドライカレー 100g×5袋",
+        "description": "味付きの定番。白飯だけの備蓄に飽きが来たときの切り札。食塩相当量2.5g",
+        "asin": "B008SB4FVS",
+        "url": "https://www.amazon.co.jp/dp/B008SB4FVS?tag=msalpha0123-22"
+      },
+      {
+        "title": "尾西食品 アルファ米 えびピラフ 100g×5袋",
+        "description": "3種で最もたんぱく質が多い（8.4g）。食塩相当量2.8gと最も高い点は留意",
+        "asin": "B00K1Y0HVM",
+        "url": "https://www.amazon.co.jp/dp/B00K1Y0HVM?tag=msalpha0123-22"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-09-02-emergency-food-ranking",
     "title": "本当においしい非常食ランキング ── 実際に食べ比べた正直な感想",
     "date": "2026-09-02",

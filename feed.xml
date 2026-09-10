@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>アルファ米は白飯と味付きご飯、どちらを備える？ ── 食塩相当量で考える</title>
+      <link>https://bousai-blog.github.io/posts/2026-09-10-alpha-rice-flavor-choice/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-10-alpha-rice-flavor-choice/</guid>
+      <description>白飯と味付きご飯で食塩相当量が0.01gと2.5〜2.8gと大きく違う（メーカー公表値）</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>本当においしい非常食ランキング ── 実際に食べ比べた正直な感想</title>
       <link>https://bousai-blog.github.io/posts/2026-09-02-emergency-food-ranking/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-02-emergency-food-ranking/</guid>
@@ -157,14 +165,6 @@
       <description>3月になると、テレビで震災の特集が増えてきます。10年以上続けている「そなえ点検」の中身と、家族と一緒に続けるためのちいさな工夫を、ありのままにお話しします。</description>
       <category>防災グッズ</category>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>普段から食べていれば、非常食じゃなくなる ── 缶詰・レトルト・フリーズドライの使い分け</title>
-      <link>https://bousai-blog.github.io/posts/2026-02-26-canned-retort-freezedry/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-02-26-canned-retort-freezedry/</guid>
-      <description>非常食は特別なものを揃えなくていい。わが家の缶詰・レトルト・フリーズドライの備え方と、忙しい日にも重宝する日常使いの工夫を、正直にお話しします。</description>
-      <category>非常食・備蓄</category>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
