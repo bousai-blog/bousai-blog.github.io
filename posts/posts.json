@@ -1,5 +1,64 @@
 [
   {
+    "slug": "2026-09-16-emergency-food-ranking",
+    "title": "本当においしい非常食ランキング ── 実際に食べ比べた正直な感想",
+    "date": "2026-09-16",
+    "summary": "「非常食はまずい」という先入観を覆したい",
+    "cover": "images/emergency-food-ranking-cover.png",
+    "category": "非常食・備蓄",
+    "products": [
+      {
+        "title": "尾西食品 アルファ米 五目ごはん（100g×5袋）",
+        "description": "記事の総合1位。具材入りで食感に変化があり、子どもも食べやすい。お湯15分・水60分で戻せる5年保存",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/11000009_tmb.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2F11000009%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10000014%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      },
+      {
+        "title": "尾西食品 アルファ米 山菜おこわ（100g×5袋）",
+        "description": "記事の2位。もち米ベースで食べごたえがあり大人向けの味わい。防災以外でも消費しやすい",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/20150020_tmb-2.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2F20150020%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10000071%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      },
+      {
+        "title": "ハウス食品 温めずにおいしいカレー（LLヒートレスカレー）",
+        "description": "記事の3位。加熱不要でそのまま食べられる。ガス・電気が使えない発災直後に強い",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/energy/cabinet/03153809/img61355929.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00px3so.8syc09e7.g00px3so.8syc11a4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenergy%2F4902402841808-bo-60set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fenergy%2Fi%2F10051900%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      },
+      {
+        "title": "はごろもフーズ シーチキン Lフレーク（缶詰）",
+        "description": "記事の4位。アルファ米と組み合わせてタンパク質を補う。缶切り不要のプルトップ式",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/e-convini/cabinet/kanzume/4902560012416-hp008.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00q7lco.8syc0ee1.g00q7lco.8syc1cd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-convini%2F10034958%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-convini%2Fi%2F10034958%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      },
+      {
+        "title": "サンヨー堂 みかん フルーツ缶詰（5年保存）",
+        "description": "記事の5位。甘いものが心の栄養になる。子どものおやつにも使えて5年保存",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ellestore/cabinet/default/syd-1605008689.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00trcmo.8syc0e4e.g00trcmo.8syc1522/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fellestore%2Fsyd-1702605760%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fellestore%2Fi%2F10097312%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      },
+      {
+        "title": "尾西食品 アルファ米（全16種・食べ比べセット）",
+        "description": "まずは家族の好みを探したい方に。全16種類を一度に食べ比べできるセット",
+        "url": "",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/04766589/20150023_tmb-7.jpg?_ex=300x300",
+        "image_source": "rakuten",
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rt8lo.8syc02be.g00rt8lo.8syc17d3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2F20150023%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fymx-shop%2Fi%2F10000074%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+      }
+    ],
+    "recommend": true
+  },
+  {
     "slug": "2026-09-10-alpha-rice-flavor-choice",
     "title": "アルファ米は白飯と味付きご飯、どちらを備える？ ── 食塩相当量で考える",
     "date": "2026-09-10",
@@ -21,18 +80,18 @@
         "description": "味付きの定番。白飯だけの備蓄に飽きが来たときの切り札。食塩相当量2.5g",
         "asin": "B008SB4FVS",
         "url": "https://www.amazon.co.jp/dp/B008SB4FVS?tag=msalpha0123-22",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/vellysupply/cabinet/312/ra301252_01.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/amuro-express/cabinet/10836502/12558170_0.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00u6hgo.8syc0f47.g00u6hgo.8syc19b1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvellysupply%2Fra301252%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvellysupply%2Fi%2F10088535%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tkpzo.8syc0e33.g00tkpzo.8syc1036/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Famuro-express%2Fykjmslfbnlgujngwj3clpjsugu%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Famuro-express%2Fi%2F10070898%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       },
       {
         "title": "尾西食品 アルファ米 えびピラフ 100g×5袋",
         "description": "3種で最もたんぱく質が多い（8.4g）。食塩相当量2.8gと最も高い点は留意",
         "asin": "B00K1Y0HVM",
         "url": "https://www.amazon.co.jp/dp/B00K1Y0HVM?tag=msalpha0123-22",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/amuro-express/cabinet/10836503/12558704_0.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/easylifeshop/cabinet/onesell067/mu8a31d78886_0.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tkpzo.8syc0e33.g00tkpzo.8syc1036/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Famuro-express%2F7fh6pc667dekfeqzyey3navieq%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Famuro-express%2Fi%2F10015259%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00us84o.8syc0887.g00us84o.8syc1594/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Feasylifeshop%2Fmu8a31d78886%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Feasylifeshop%2Fi%2F10022965%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
@@ -116,9 +175,9 @@
         "title": "日本製 アルミ保温ブランケット（まとめ買い5枚セット）",
         "description": "体温を逃がさない緊急用ブランケット。薄くてコンパクトで防災リュックに常備できる",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/masshon/cabinet/02925478/saigai/kinbu1-2.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/s-zakka-show/cabinet/05719272/11891563/25057.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00pzf3o.8syc06ba.g00pzf3o.8syc1124/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmasshon%2Fki-bnkt2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmasshon%2Fi%2F10001737%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00qnw9o.8syc0b26.g00qnw9o.8syc10d1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs-zakka-show%2F25057%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs-zakka-show%2Fi%2F10007475%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
@@ -237,9 +296,9 @@
         "title": "Jackery ポータブル電源 512Wh（Explorer 500）",
         "description": "コスパ最強の中容量帯。スマホ・扇風機・照明を丸1日使える",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119192922.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119192927.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.8syc095a.g00tgroo.8syc1548/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p-400200-bkor-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000000%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.8syc095a.g00tgroo.8syc1548/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2F21-0009-000094%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000125%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       },
       {
         "title": "EcoFlow DELTA 1000Wh ポータブル電源",
@@ -304,17 +363,17 @@
         "title": "カセットコンロ（屋内用・安全機能付き）",
         "description": "停電・ガス停止時の調理に。圧力感知安全装置付きの屋内用カセットコンロ。",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/townland-c/cabinet/outdoors/za-9m-1.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ksdenki/cabinet/images/34_5/4510149450834_5.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00rxn9o.8syc0fa1.g00rxn9o.8syc12c8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland-c%2Fy-za-9m%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftownland-c%2Fi%2F10004925%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tit6o.8syc0eaf.g00tit6o.8syc14f8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4510149450834%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fksdenki%2Fi%2F10498006%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       },
       {
         "title": "カセットガスボンベ（まとめ買い）",
         "description": "7日分の目安は21本以上。まとめ買いでコストを抑えつつ、日常使いでローリングストックがおすすめです。",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/10535017/imgrc0101523164.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/pro-ste/cabinet/09741485/11959959/9007067342-01.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zto.8syc0bb0.g00t3zto.8syc11a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F7253292%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10149345%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tszqo.8syc006b.g00tszqo.8syc12fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpro-ste%2F9007067342%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpro-ste%2Fi%2F10067646%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
@@ -350,9 +409,9 @@
         "title": "簡易トイレ・携帯トイレセット（防臭袋付き）",
         "description": "断水時のトイレ対策に。1人7日分なら最低50回分が目安。防臭袋付きのものが使いやすいです。",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/arrebolshop/cabinet/jjj007/jjj00700s_1.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/axlife01/cabinet/d260722/r226675540b0e_1.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00u0q1o.8syc07b4.g00u0q1o.8syc1924/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farrebolshop%2Fjjj00700s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Farrebolshop%2Fi%2F10062604%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00uurko.8syc0c5c.g00uurko.8syc1bf6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faxlife01%2Fr226675540b0e%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faxlife01%2Fi%2F10033550%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
@@ -369,9 +428,9 @@
         "title": "ポータブル電源（家庭用・停電対策）",
         "description": "太陽光パネルがない家の停電対策に。スマホ・ラジオ・小型家電を動かせる家庭用ポータブル電源。",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13805583/imgrc0119299053.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackery-japan/cabinet/13840558/13845115/imgrc0119718063.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.8syc095a.g00tgroo.8syc1548/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2F60-2020-jpd1d1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000161%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tgroo.8syc095a.g00tgroo.8syc1548/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackery-japan%2Fn-p-10001000-bkor-jk2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackery-japan%2Fi%2F10000025%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
@@ -388,9 +447,9 @@
         "title": "LEDランタン（充電式・調光機能付き）",
         "description": "停電時の室内照明に。USB充電式で普段も使えるコンパクトなLEDランタン。",
         "url": "",
-        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/artpiece/cabinet/zatu/imgrc0160816107.jpg?_ex=300x300",
+        "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/artpiece/cabinet/zatu/imgrc0157690867.jpg?_ex=300x300",
         "image_source": "rakuten",
-        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tb0wo.8syc0a86.g00tb0wo.8syc1fd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fartpiece%2Fsyzd%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fartpiece%2Fi%2F10001187%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
+        "rakuten_url": "https://hb.afl.rakuten.co.jp/hgc/g00tb0wo.8syc0a86.g00tb0wo.8syc1fd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fartpiece%2Flantannew%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fartpiece%2Fi%2F10000491%2F&rafcid=wsc_i_is_ce149fd6-e81d-42dd-b77b-a62145bd6286"
       }
     ],
     "recommend": true
