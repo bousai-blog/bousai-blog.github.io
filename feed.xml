@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>台風が来る前日にやること ── 30分でできる家まわりのチェックリスト</title>
+      <link>https://bousai-blog.github.io/posts/2026-09-23-typhoon-checklist-day-before/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-23-typhoon-checklist-day-before/</guid>
+      <description>前日にやることを時系列で示す</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>本当においしい非常食ランキング ── 実際に食べ比べた正直な感想</title>
       <link>https://bousai-blog.github.io/posts/2026-09-16-emergency-food-ranking/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-16-emergency-food-ranking/</guid>
@@ -157,14 +165,6 @@
       <description>災害時のライトは、専用品をたくさん揃えなくても、家にあるもので十分代用できます。わが家のライト4種類の使い分けと、懐中電灯を簡易ランタンにする小ワザをご紹介。</description>
       <category>防災グッズ</category>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>3月は、わが家の「そなえ点検」の月</title>
-      <link>https://bousai-blog.github.io/posts/2026-03-12-march-check/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-03-12-march-check/</guid>
-      <description>3月になると、テレビで震災の特集が増えてきます。10年以上続けている「そなえ点検」の中身と、家族と一緒に続けるためのちいさな工夫を、ありのままにお話しします。</description>
-      <category>防災グッズ</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
