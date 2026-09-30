@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>窓ガラスの飛散防止フィルムは自分で貼れる？ ── 台風前にできる対策</title>
+      <link>https://bousai-blog.github.io/posts/2026-09-30-window-security-film/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-30-window-security-film/</guid>
+      <description>台風で窓ガラスが割れた場合のリスク（怪我・水害）</description>
+      <category>防犯</category>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>台風が来る前日にやること ── 30分でできる家まわりのチェックリスト</title>
       <link>https://bousai-blog.github.io/posts/2026-09-23-typhoon-checklist-day-before/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-09-23-typhoon-checklist-day-before/</guid>
@@ -157,14 +165,6 @@
       <description>屋根の太陽光パネルは、停電時に「自立運転モード」へ切り替えると日中の電気が使えます。意外と知られていないこの機能と、わが家のシンプルな電気の備え4つをお話しします。</description>
       <category>電源・エネルギー</category>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>スーパーの袋でランタンに? ── 災害時のライト、わが家の備え方</title>
-      <link>https://bousai-blog.github.io/posts/2026-03-26-flashlight-lantern/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-03-26-flashlight-lantern/</guid>
-      <description>災害時のライトは、専用品をたくさん揃えなくても、家にあるもので十分代用できます。わが家のライト4種類の使い分けと、懐中電灯を簡易ランタンにする小ワザをご紹介。</description>
-      <category>防災グッズ</category>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
