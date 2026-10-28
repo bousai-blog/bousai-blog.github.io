@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>買ったけど使わなかった防災グッズ ── よくある「いらなかった」の共通点</title>
+      <link>https://bousai-blog.github.io/posts/2026-10-28-bousai-goods-not-needed/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-10-28-bousai-goods-not-needed/</guid>
+      <description>使われないものに共通する条件</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>備蓄の置き場所がない ── マンション・ワンルームでの収納の作り方</title>
       <link>https://bousai-blog.github.io/posts/2026-10-21-stockpile-no-space-apartment/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-10-21-stockpile-no-space-apartment/</guid>
@@ -157,14 +165,6 @@
       <description>スマホだけでは情報を取れなくなる場面があります。手回し充電ラジオの実力を半年使った正直な感想とともに、わが家の情報収集セットを公開します。</description>
       <category>防災グッズ</category>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>カセットコンロは「家の防災」の主役 ── 選び方と備蓄ボンベの量の目安</title>
-      <link>https://bousai-blog.github.io/posts/2026-05-21-cassette-stove/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-05-21-cassette-stove/</guid>
-      <description>停電もガス停止も関係なく使えるカセットコンロ。ボンベの必要本数の計算式と、安全な保管方法、わが家の運用方法を正直にお話しします。</description>
-      <category>非常食・備蓄</category>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
