@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>非常食の賞味期限が切れたら食べられる？ ── ローリングストックの回し方</title>
+      <link>https://bousai-blog.github.io/posts/2026-11-04-long-term-storage-food/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-11-04-long-term-storage-food/</guid>
+      <description>長期保存食の「美味しくない」は昔の話</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>買ったけど使わなかった防災グッズ ── よくある「いらなかった」の共通点</title>
       <link>https://bousai-blog.github.io/posts/2026-10-28-bousai-goods-not-needed/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-10-28-bousai-goods-not-needed/</guid>
@@ -157,14 +165,6 @@
       <description>市販の防災セットは「入門として便利」だが「そのままでは足りない」</description>
       <category>防災グッズ</category>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>災害時のラジオ・スマホ・情報源 ── 手回し充電ラジオは本当に必要か</title>
-      <link>https://bousai-blog.github.io/posts/2026-06-04-radio-information/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-06-04-radio-information/</guid>
-      <description>スマホだけでは情報を取れなくなる場面があります。手回し充電ラジオの実力を半年使った正直な感想とともに、わが家の情報収集セットを公開します。</description>
-      <category>防災グッズ</category>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
