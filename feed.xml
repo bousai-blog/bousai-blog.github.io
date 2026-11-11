@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>女性の防災リュックは何キロまで背負える？ ── 軽量化の優先順位</title>
+      <link>https://bousai-blog.github.io/posts/2026-11-11-disaster-rucksack-womens/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-11-11-disaster-rucksack-womens/</guid>
+      <description>女性特有のニーズ（生理用品・スキンケア・安全面）</description>
+      <category>防災グッズ</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>非常食の賞味期限が切れたら食べられる？ ── ローリングストックの回し方</title>
       <link>https://bousai-blog.github.io/posts/2026-11-04-long-term-storage-food/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-11-04-long-term-storage-food/</guid>
@@ -157,14 +165,6 @@
       <description>容量（Wh）の目安：スマホ・扇風機・冷蔵庫は何時間動くか</description>
       <category>電源・エネルギー</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>市販の防災セット、買って後悔しない選び方 ── 5社を比較してわかったこと</title>
-      <link>https://bousai-blog.github.io/posts/2026-06-17-emergency-kit-comparison/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-06-17-emergency-kit-comparison/</guid>
-      <description>市販の防災セットは「入門として便利」だが「そのままでは足りない」</description>
-      <category>防災グッズ</category>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
