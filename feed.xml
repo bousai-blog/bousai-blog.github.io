@@ -7,6 +7,14 @@
     <language>ja</language>
     <atom:link href="https://bousai-blog.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>カセットボンベは何本備蓄すればいい？ ── 使用時間の目安と保管の注意</title>
+      <link>https://bousai-blog.github.io/posts/2026-11-25-cassette-gas-howmany/</link>
+      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-11-25-cassette-gas-howmany/</guid>
+      <description>1本あたりの燃焼時間の目安</description>
+      <category>非常食・備蓄</category>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>冬に停電したら暖房が全部止まる ── 電気を使わない暖の取り方</title>
       <link>https://bousai-blog.github.io/posts/2026-11-18-winter-outage-no-heater/</link>
       <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-11-18-winter-outage-no-heater/</guid>
@@ -157,14 +165,6 @@
       <description>台風前日・当日・直後にやること（チェックリスト形式）</description>
       <category>防災グッズ</category>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>停電の夏、熱中症対策グッズを真剣に揃えた話 ── 扇風機・保冷剤・クールタオル</title>
-      <link>https://bousai-blog.github.io/posts/2026-07-01-summer-heatstroke-prep/</link>
-      <guid isPermaLink="true">https://bousai-blog.github.io/posts/2026-07-01-summer-heatstroke-prep/</guid>
-      <description>停電時の熱中症リスクは想像以上に高い（過去の統計）</description>
-      <category>防災グッズ</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
